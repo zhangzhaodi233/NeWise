@@ -2,6 +2,44 @@
 
 NeWise is a general and efficient framework for certifying the robustness of neural networks. Given a neural network and an input image, NeWise can calculate more precise certified lower robustness bound. Technical details can be found in the accepted ASE'22 [paper](https://github.com/zhangzhaodi233/NeWise/blob/main/ASE22_submission_159_technical_report.pdf).
 
+## Inventory of the artifact
+> tool's code
+> + alg1
+>     + utils_pack
+>     + certify_mlp.py
+>     + frown_general_activation_neuronwise.py
+>     + get_bound_for_general_activation_function.py
+>     + main.py
+>     + mlp.py
+> + activations.py 
+> + cnn_bounds_full_core_with_LP.py 
+> + cnn_bounds_full_with_LP.py 
+> + mlp_keras_2_pytorch.py 
+> + train_myself_model.py 
+> + utils.py 
+
+> experimental data
+> + alg1
+>     + datasets
+> + data
+> + models
+
+> producing figures and tables
+> + figure_xxx.py 
+> + output_middel_layer_data.py 
+> + table_xxx.py 
+
+> test results produced when the code was run on our local machine.
+> + xxx_local
+
+> modify one file in virtual environment
+> + modify_file.py
+
+> scripts to install and run.
+> + install.sh
+> + requirements.txt
+> + run.sh
+
 ## Install NeWise
 
 All the scripts and code were tested on a workstation running Ubuntu 18.04.
