@@ -12,6 +12,7 @@ sudo apt install libssl-dev
 sudo apt install libreadline-dev 
 sudo apt install libffi-dev
 sudo apt-get install -y libgl1-mesa-dev
+sudo apt-get install wget
 
 wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
 tar -xzvf Python-3.7.5.tgz
