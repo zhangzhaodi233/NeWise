@@ -60,7 +60,7 @@ When all the necessary dependencies are installed, the message "The enviroment h
 
 1. ```. run.sh``` or ```nohup sh run.sh > nohup.out 2>&1 &``` (if you prefer to run it in the background).
 
-2. The tables will be saved in **results/table_resutls.txt** while the figures in **figs/**.
+2. The tables will be saved in **results/table_results.txt** while the figures in **figs/**.
 
 Example output of Table 6 (partial):
 ``` 
@@ -89,3 +89,22 @@ fashion_mnist_ffnn_2x200_with_positive_weights_sigmoid.h5         	 0.0263 	 0.0
 
 
 **Note:** the results of Table 4 and Table 9 would be slightly different for each run as the images were taken randomly. However, the conclusions keep  consistent as made in the paper: the approximation computed by Algorithm 1 is the optimal approximation for a neural network containing only one hidden layer.
+
+## Contributors
+- Zhaodi Zhang (contact) - zdzhang@stu.ecnu.edu.cn
+- Yiting Wu - 51205902026@stu.ecnu.edu.cn
+- Si Liu - si.liu@inf.ethz.ch
+- Jing Liu - jliu@sei.ecnu.edu.cn
+- Min Zhang - zhangmin@sei.ecnu.edu.cn
+
+## Cite
+```
+@article{2208.09872,
+	Author = {Zhaodi Zhang and Yiting Wu and Si Liu and Jing Liu and Min Zhang},
+   Title = {Provably Tightest Linear Approximation for Robustness Verification of Sigmoid-like Neural Networks},
+   Year = {2022},
+	journal   = {CoRR},
+	volume    = {arXiv:2208.09872},
+}
+```
+
