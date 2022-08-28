@@ -114,7 +114,7 @@ def loadData(filePath):
 
 if __name__ == '__main__':
     
-    log_name = "table_resutls"
+    log_name = "table_results"
     
     # Table 1
     file_path = "logs/table_one.txt"
