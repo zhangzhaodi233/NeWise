@@ -158,12 +158,12 @@ def printlog(s, log_name):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description='Clever Terminal Runner')
-    parser.add_argument('--cuda', type=int, metavar='c',
+    parser.add_argument('--cuda', type=int, default=-1, metavar='c',
                         help='gpu idx to use (necessary). if cuda<0, we will use cpu')
-    parser.add_argument('--p_norm', type=int, metavar='p',
+    parser.add_argument('--p_norm', type=int, default=200, metavar='p',
                         help='p norm (necessary)')
-    parser.add_argument('--eps0', type=float, default=1, metavar='e',
-                        help='start point for eps to search (default: 1)')
+    parser.add_argument('--eps0', type=float, default=0.2, metavar='e',
+                        help='start point for eps to search (default: 0.2)')
     parser.add_argument('--acc', type=float, default=0.01,
                         help='required relative precision for eps (default: 0.01)')
     parser.add_argument('--log_name', default = '', type = str, metavar = 'WD',
@@ -257,6 +257,7 @@ if __name__ == '__main__':
                 input_dimension=input_dimension, 
                 output_dimension=output_dimension, bn=False, affine=False, 
                 activation=activation)
+    print(net)
     printlog(net, log_name)
     
     net.load_state_dict(torch.load(model_file, map_location='cpu'))
@@ -277,6 +278,7 @@ if __name__ == '__main__':
     total_time = 0
 
     for i in range(num_batches):
+        print('Computing bounds for the %d-th batch' % (i+1))
         printlog('Computing bounds for the %d-th batch' % (i+1), log_name)
         if args.dataset == 'mnist':
             x, true_label, target_label = sample_mnist_data(N, device, num_labels=10,
@@ -321,6 +323,18 @@ if __name__ == '__main__':
         total_u = torch.cat([total_u, u_eps.detach()])
         total_num = total_num + num
 
+        print('statistics of this batch l_eps for %d images' % num)
+        print('%.8f %.8f %.8f %.8f' % 
+            (l_eps.min(), l_eps.mean(),l_eps.max(), l_eps.std()))
+
+        print('For all the samples, the lower bound we found is:')
+        print(total_l)
+        print('Computed %s norm certified bound of %d samples for' % (str(p), total_num))
+        print('model %s in %.2f seconds' % (model_file, total_time))
+        print('average %.2f seconds' % (total_time/total_num))
+        print('statistics of l_eps')
+        print('mean=%.8f std=%.8f' % (total_l.mean(), total_l.std()))
+        
         printlog('statistics of this batch l_eps for %d images' % num, log_name)
         printlog('%.8f %.8f %.8f %.8f' % 
             (l_eps.min(), l_eps.mean(),l_eps.max(), l_eps.std()), log_name)
