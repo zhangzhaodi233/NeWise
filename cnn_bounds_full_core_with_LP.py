@@ -399,7 +399,7 @@ def lower_bound_pool(A, B, pad, stride, pool_size, inner_pad, inner_stride, inne
 
 @njit
 def compute_bounds(weights, biases, out_shape, nlayer, x0, eps, p_n, strides, pads, LBs, UBs, method):
-    print('nlayer: ', nlayer)
+    # print('nlayer: ', nlayer)
     pad = (0,0,0,0)
     stride = (1,1)
     modified_LBs = LBs + (np.ones(out_shape, dtype=np.float32),)
@@ -434,7 +434,7 @@ def find_output_bounds(weights, biases, shapes, pads, strides, x0, eps, p_n, met
     UBs = [x0+eps, UB]
     
     for i in range(2,len(weights)+1):
-        print('find_output_bounds ', i)
+        # print('find_output_bounds ', i)
         LB, _, _, UB, A_u, A_l, B_u, B_l, pad, stride = compute_bounds(tuple(weights), tuple(biases), shapes[i], i, x0, eps, p_n, tuple(strides), tuple(pads), tuple(LBs), tuple(UBs), method)
         UBs.append(UB)
         LBs.append(LB)
@@ -451,7 +451,7 @@ def warmup(model, x, eps_0, p_n, fn):
     weights.append(last_weight)
     biases.append(np.asarray([b[0]]))
     shapes.append((1,1,1))
-    print('enter fn...')
+    # print('enter fn...')
     fn(weights, biases, shapes, model.pads, model.strides, x, eps_0, p_n)
     
 ts = time.time()
@@ -512,6 +512,9 @@ def run_certified_bounds_core(file_name, n_samples, p_n, q_n, data_from_local=Tr
         printlog('===========================================', log_name)
         printlog("model name = {}".format(file_name), log_name)
     
+    print('===========================================')
+    print("model name = {}".format(file_name))
+    
     total_images = 0
     steps = 15
     eps_0 = 0.05
@@ -522,7 +525,7 @@ def run_certified_bounds_core(file_name, n_samples, p_n, q_n, data_from_local=Tr
     
     NeWise_start_time = time.time()
     for i in range(len(inputs)):
-        # printlog('--- ' + method + ' relaxation: Computing eps for input image ' + str(i)+ '---', log_name)
+        print('--- ' + method + ' relaxation: Computing eps for input image ' + str(i)+ '---')
         predict_label = np.argmax(true_labels[i])
         target_label = np.argmax(targets[i])
         
@@ -533,9 +536,7 @@ def run_certified_bounds_core(file_name, n_samples, p_n, q_n, data_from_local=Tr
         for j in range(steps):
             LB_total, UB_total, _, _, _, _, _, _ = find_output_bounds(model.weights, model.biases, model.shapes, model.pads, model.strides, inputs[i].astype(np.float32), np.exp(log_eps), p_n, method)
             distance_bt_pre_tar = LB_total[0][0][predict_label] - UB_total[0][0][target_label]
-            # print("Step {}, eps = {:.5f}, f_c_min - f_t_max = {:.6s}".format(j,np.exp(log_eps),str(distance_bt_pre_tar)))
             
-            # print("Step {}, eps = {:.5f}, {:.6s} <= f_c - f_t <= {:.6s}".format(j,np.exp(log_eps),str(np.squeeze(LB)),str(np.squeeze(UB))))
             if distance_bt_pre_tar > 0: #Increase eps
                 log_eps_min = log_eps
                 log_eps = np.minimum(log_eps+1, (log_eps_max+log_eps_min)/2)
@@ -543,7 +544,7 @@ def run_certified_bounds_core(file_name, n_samples, p_n, q_n, data_from_local=Tr
                 log_eps_max = log_eps
                 log_eps = np.maximum(log_eps-1, (log_eps_max+log_eps_min)/2)
         
-        # printlog("[L1] method = {}-{}, model = {}, image no = {}, true_id = {}, target_label = {}, true_label = {}, robustness = {:.5f}".format(method, activation,file_name, i, true_ids[i],target_label,predict_label,np.exp(log_eps_min)), log_name)
+        print("[L1] method = {}-{}, model = {}, image no = {}, true_id = {}, target_label = {}, true_label = {}, robustness = {:.5f}".format(method, activation,file_name, i, true_ids[i],target_label,predict_label,np.exp(log_eps_min)))
         summation += np.exp(log_eps_min)
         eps_total[i] = np.exp(log_eps_min)
     
@@ -551,4 +552,5 @@ def run_certified_bounds_core(file_name, n_samples, p_n, q_n, data_from_local=Tr
     aver_time = (time.time()-NeWise_start_time)/len(inputs)
     # printlog("[L0] method = {}-{}, model = {}, total images = {}, avg robustness = {:.5f}, avg runtime = {:.2f}".format(method, activation,file_name,len(inputs),eps_avg,aver_time), log_name)
     # printlog("[L0] method = {}-{}, total images = {}, avg robustness = {:.5f}, avg runtime = {:.2f}".format(method, activation, len(inputs),eps_avg,aver_time), log_name)
+    print("[L0] method = {}-{}, total_images={}, avg={:.5f}, std={:.5f}, avg_runtime={:.2f}".format(method, activation, len(inputs), eps_avg, np.std(eps_total), aver_time))
     printlog("{:20}-{}, \t total_images={}, \t avg={:.5f}, \t std={:.5f}, \t avg_runtime={:.2f}".format(method, activation, len(inputs), eps_avg, np.std(eps_total), aver_time), log_name)
