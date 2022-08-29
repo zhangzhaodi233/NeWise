@@ -154,7 +154,7 @@ mean=0.03527344 std=0.01387654
 - Yiting Wu - 51205902026@stu.ecnu.edu.cn
 - Si Liu - si.liu@inf.ethz.ch
 - Jing Liu - jliu@sei.ecnu.edu.cn
-- Min Zhang - zhangmin@sei.ecnu.edu.cn
+- Min Zhang (contact) - zhangmin@sei.ecnu.edu.cn
 
 ## Cite
 ```
