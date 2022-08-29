@@ -1,32 +1,41 @@
 # Installation
-***
 All the scripts and code were tested on a workstation running Ubuntu 18.04.
 
-1. Download the code.
+1. Download the code:
    ```
    git clone https://github.com/zhangzhaodi233/NeWise.git
    cd NeWise
    ```
-2. Install all the necessary dependencies.
+2. Install all the necessary dependencies:
     ```
     . install.sh
     ```
 
-When all the necessary dependencies are installed, there will be "The enviroment has been deployed!".
+When all the necessary dependencies are installed, the message "The enviroment has been deployed!" pops up.
 
-# How to run
-***
-Ready to run Newise and reproduce the results in our paper.
-```
-. run.sh
-```
+In addition, we also provide the docker image for NeWise:
 
-If you want to run this script in the background, then you run the following command line:
-```
-nohup sh run.sh > nohup.out 2>&1 &
-```
+1. Download the docker image from xxxx. (The image contains the NeWise's code).
+2. Load the docker image:
+   ```
+   docker load -i newise.tar
+   ```
+3. Start a container with the image:
+   ```
+   docker run -it newise:v2 /bin/bash
+   ```
 
-The tables will be saved in 'results/table_resutls.txt'. The figures will be saved in 'figs/'.
+## Run NeWise and reproduce the results
+
+1. Activate the virtual environment:
+   ```
+   source venv/bin/activate
+   ```
+
+2. Reproduce the results:
+   ```. run.sh``` or ```nohup sh run.sh > nohup.out 2>&1 &``` (if you prefer to run it in the background).
+
+3. The tables will be saved in **results/table_results.txt** while the figures in **figs/**.
 
 Example format of Table 6 (partial):
 ```
@@ -57,4 +66,4 @@ fashion_mnist_ffnn_2x200_with_positive_weights_sigmoid.h5         	 0.0263 	 0.0
 
 
 
-Note that the re-run results of Table 4 and Table 9 will be slightly different from those in the paper. This is because the images were taken randomly. However, the results are still consistent with the conclusion in the paper that the approximation computed by Algorithm 1 is the optimal approximation for a neural network containing only one hidden layer.
+**Note:** the results of Table 4 and Table 9 would be slightly different for each run as the images were taken randomly. However, the conclusions keep  consistent as made in the paper: the approximation computed by Algorithm 1 is the optimal approximation for a neural network containing only one hidden layer.

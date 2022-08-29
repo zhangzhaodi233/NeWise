@@ -2,8 +2,8 @@
 
 NeWise is a general and efficient framework for certifying the robustness of neural networks. Given a neural network and an input image, NeWise can calculate more precise certified lower robustness bound. Technical details can be found in the accepted ASE'22 [paper](https://github.com/zhangzhaodi233/NeWise/blob/main/ASE22_submission_159_technical_report.pdf).
 
-## Inventory of the artifact
-> tool's code
+## Project Structure
+> tool's code:
 > + alg1
 >     + utils_pack
 >     + certify_mlp.py
@@ -18,21 +18,21 @@ NeWise is a general and efficient framework for certifying the robustness of neu
 > + train_myself_model.py 
 > + utils.py 
 
-> experimental data
+> experimental data:
 > + alg1
 >     + datasets
 > + data
 > + models
 
-> producing figures and tables
+> reproduce figures and tables in the paper:
 > + figure_xxx.py 
 > + output_middel_layer_data.py 
 > + table_xxx.py 
 
-> test results produced when the code was run on our local machine.
+> test results produced when the code was run on our local machine:
 > + xxx_local
 
-> modify one file in virtual environment
+> modify one file in virtual environment:
 > + modify_file.py
 
 > scripts to install and run.
@@ -56,11 +56,29 @@ All the scripts and code were tested on a workstation running Ubuntu 18.04.
 
 When all the necessary dependencies are installed, the message "The enviroment has been deployed!" pops up.
 
+In addition, we also provide the docker image for NeWise:
+
+1. Download the docker image from https://figshare.com/articles/software/NeWise/20709868. (The image contains the NeWise's code).
+2. Load the docker image:
+   ```
+   docker load -i newise.tar
+   ```
+3. Start a container with the image:
+   ```
+   docker run -it newise:v2 /bin/bash
+   ```
+
 ## Run NeWise and reproduce the results
 
-1. ```. run.sh``` or ```nohup sh run.sh > nohup.out 2>&1 &``` (if you prefer to run it in the background).
+1. Activate the virtual environment:
+   ```
+   source venv/bin/activate
+   ```
 
-2. The tables will be saved in **results/table_results.txt** while the figures in **figs/**.
+2. Reproduce the results:
+   ```. run.sh``` or ```nohup sh run.sh > nohup.out 2>&1 &``` (if you prefer to run it in the background).
+
+3. The tables will be saved in **results/table_results.txt** while the figures in **figs/**.
 
 Example output of Table 6 (partial):
 ``` 
@@ -89,6 +107,47 @@ fashion_mnist_ffnn_2x200_with_positive_weights_sigmoid.h5         	 0.0263 	 0.0
 
 
 **Note:** the results of Table 4 and Table 9 would be slightly different for each run as the images were taken randomly. However, the conclusions keep  consistent as made in the paper: the approximation computed by Algorithm 1 is the optimal approximation for a neural network containing only one hidden layer.
+
+## Example
+To use NeWise to compute the certified lower bound for models with non-negative weights, run the following command:
+```
+python example.py --model models/models_with_positive_weights/sigmoid/mnist_cnn_3layer_2_3_with_positive_weights_9120.h5 --images 10 --data_from_local 1 --method NeWise --activation sigmoid --dataset mnist --logname example --purecnn 1 
+```
+- ```--model```: path to the network file.
+- ```--images```: the number of images.
+- ```--data_from_local```: whether use local images (local: 1; download: 0).
+- ```--method```: the method of approximation (can be either NeWise, DeepCert, VeriNet, or RobustVerifier).
+- ```--activation```: the type of activation (can be either sigmoid, tanh, atan).
+- ```--dataset```: the type of dataset (can be either mnist, cifar, or fashion_mnist).
+- ```--logname```: the name of log.
+- ```--purecnn```: whether the model is pure cnn.
+
+After the command runs, the terminal will print out a series of related information. The result is the last row：
+```
+[L0] method = NeWise-sigmoid, total_images=9, avg=0.05415, std=0.02051, avg_runtime=0.16
+```
+
+To use NeWise to compute the certified lower bound for models containing only one hidden layer, run the following command:
+```
+python alg1/main.py --log_name alg1_example --batch_size 5 --model_dir models/one_layer_models/ --model_name mnist_fnn_1x50_sigmoid_local.pth --num_neurons 50 --num_layers 2 --activation sigmoid --dataset mnist --neuronwise_optimize
+```
+- ```--log_name```: the name of log.
+- ```--batch_size```: the number of images.
+- ```--model_dir```: the directory where the pretrained model is stored.
+- ```--model_name```: the name of the pretrained model.
+- ```--num_neurons```: the number of neurons in the hidden layer of the pretrained model.
+- ```--num_layers```: the number of layers of the pretrained model.
+- ```--activation```: the type of activation.
+- ```--dataset```: the type of dataset.
+- ```--neuronwise_optimize```: whether optimize every neuron.
+
+After the command runs, the terminal will print out a series of related information. The result is the last four row：
+```
+model models/one_layer_models/mnist_fnn_1x50_sigmoid_local.pth in 3.00 seconds
+average 0.60 seconds
+statistics of l_eps
+mean=0.03527344 std=0.01387654
+```
 
 ## Contributors
 - Zhaodi Zhang (contact) - zdzhang@stu.ecnu.edu.cn
