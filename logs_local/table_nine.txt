@@ -3,23 +3,23 @@ model name = models/one_layer_models/mnist_cnn_2layer_1_5_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=9, 	 avg=0.04384, 	 std=0.01470, 	 avg_runtime=0.06
 DeepCert            -sigmoid, 	 total_images=9, 	 avg=0.04373, 	 std=0.01454, 	 avg_runtime=0.07
 VeriNet             -sigmoid, 	 total_images=9, 	 avg=0.04348, 	 std=0.01427, 	 avg_runtime=0.06
-RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.04280, 	 std=0.01369, 	 avg_runtime=0.06
+RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.04280, 	 std=0.01374, 	 avg_runtime=0.06
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_1_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=9, 	 avg=0.02812, 	 std=0.01275, 	 avg_runtime=0.06
-DeepCert            -tanh, 	 total_images=9, 	 avg=0.02704, 	 std=0.01242, 	 avg_runtime=0.07
+DeepCert            -tanh, 	 total_images=9, 	 avg=0.02858, 	 std=0.01324, 	 avg_runtime=0.07
 VeriNet             -tanh, 	 total_images=9, 	 avg=0.02850, 	 std=0.01318, 	 avg_runtime=0.06
 RobustVerifier      -tanh, 	 total_images=9, 	 avg=0.02766, 	 std=0.01213, 	 avg_runtime=0.06
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_2_5_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=96, 	 avg=0.05267, 	 std=0.01971, 	 avg_runtime=0.07
 DeepCert            -sigmoid, 	 total_images=96, 	 avg=0.05415, 	 std=0.02081, 	 avg_runtime=0.09
-VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.05388, 	 std=0.02065, 	 avg_runtime=0.07
-RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05207, 	 std=0.01871, 	 avg_runtime=0.07
+VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.05388, 	 std=0.02065, 	 avg_runtime=0.08
+RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05208, 	 std=0.01873, 	 avg_runtime=0.07
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_2_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=98, 	 avg=0.03223, 	 std=0.01155, 	 avg_runtime=0.07
-DeepCert            -tanh, 	 total_images=98, 	 avg=0.03152, 	 std=0.01129, 	 avg_runtime=0.09
+DeepCert            -tanh, 	 total_images=98, 	 avg=0.03322, 	 std=0.01225, 	 avg_runtime=0.09
 VeriNet             -tanh, 	 total_images=98, 	 avg=0.03311, 	 std=0.01218, 	 avg_runtime=0.08
 RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.03206, 	 std=0.01127, 	 avg_runtime=0.07
 ===========================================
@@ -27,11 +27,11 @@ model name = models/one_layer_models/mnist_cnn_2layer_3_5_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=97, 	 avg=0.05103, 	 std=0.01851, 	 avg_runtime=0.08
 DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.05258, 	 std=0.01970, 	 avg_runtime=0.11
 VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.05240, 	 std=0.01964, 	 avg_runtime=0.09
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05028, 	 std=0.01758, 	 avg_runtime=0.08
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05028, 	 std=0.01757, 	 avg_runtime=0.08
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_3_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=99, 	 avg=0.03170, 	 std=0.01128, 	 avg_runtime=0.08
-DeepCert            -tanh, 	 total_images=99, 	 avg=0.03129, 	 std=0.01125, 	 avg_runtime=0.11
+DeepCert            -tanh, 	 total_images=99, 	 avg=0.03270, 	 std=0.01207, 	 avg_runtime=0.12
 VeriNet             -tanh, 	 total_images=99, 	 avg=0.03265, 	 std=0.01205, 	 avg_runtime=0.10
 RobustVerifier      -tanh, 	 total_images=99, 	 avg=0.03167, 	 std=0.01111, 	 avg_runtime=0.08
 ===========================================
@@ -43,9 +43,9 @@ RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.06207, 	 std=0.02099, 	 
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_4_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=9, 	 avg=0.02644, 	 std=0.00955, 	 avg_runtime=0.09
-DeepCert            -tanh, 	 total_images=9, 	 avg=0.02616, 	 std=0.00948, 	 avg_runtime=0.12
+DeepCert            -tanh, 	 total_images=9, 	 avg=0.02723, 	 std=0.01026, 	 avg_runtime=0.14
 VeriNet             -tanh, 	 total_images=9, 	 avg=0.02720, 	 std=0.01026, 	 avg_runtime=0.10
-RobustVerifier      -tanh, 	 total_images=9, 	 avg=0.02657, 	 std=0.00957, 	 avg_runtime=0.09
+RobustVerifier      -tanh, 	 total_images=9, 	 avg=0.02657, 	 std=0.00957, 	 avg_runtime=0.10
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_5_3_sigmoid.h5
 NeWise              -sigmoid, 	 total_images=97, 	 avg=0.04774, 	 std=0.01812, 	 avg_runtime=0.07
@@ -55,7 +55,7 @@ RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.04708, 	 std=0.01759, 	
 ===========================================
 model name = models/one_layer_models/mnist_cnn_2layer_5_3_tanh.h5
 NeWise              -tanh, 	 total_images=97, 	 avg=0.01913, 	 std=0.00715, 	 avg_runtime=0.08
-DeepCert            -tanh, 	 total_images=97, 	 avg=0.01890, 	 std=0.00706, 	 avg_runtime=0.11
+DeepCert            -tanh, 	 total_images=97, 	 avg=0.01924, 	 std=0.00725, 	 avg_runtime=0.13
 VeriNet             -tanh, 	 total_images=97, 	 avg=0.01921, 	 std=0.00722, 	 avg_runtime=0.08
 RobustVerifier      -tanh, 	 total_images=97, 	 avg=0.01907, 	 std=0.00707, 	 avg_runtime=0.08
 ===========================================
@@ -63,11 +63,11 @@ model name = models/one_layer_models/fashion_mnist_cnn_2layer_1_5_sigmoid_local.
 NeWise              -sigmoid, 	 total_images=77, 	 avg=0.08606, 	 std=0.03752, 	 avg_runtime=0.06
 DeepCert            -sigmoid, 	 total_images=77, 	 avg=0.08769, 	 std=0.03848, 	 avg_runtime=0.07
 VeriNet             -sigmoid, 	 total_images=77, 	 avg=0.08762, 	 std=0.03858, 	 avg_runtime=0.06
-RobustVerifier      -sigmoid, 	 total_images=77, 	 avg=0.08350, 	 std=0.03485, 	 avg_runtime=0.06
+RobustVerifier      -sigmoid, 	 total_images=77, 	 avg=0.08349, 	 std=0.03485, 	 avg_runtime=0.06
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_1_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=81, 	 avg=0.05294, 	 std=0.02373, 	 avg_runtime=0.06
-DeepCert            -tanh, 	 total_images=81, 	 avg=0.04895, 	 std=0.02106, 	 avg_runtime=0.07
+DeepCert            -tanh, 	 total_images=81, 	 avg=0.05553, 	 std=0.02534, 	 avg_runtime=0.07
 VeriNet             -tanh, 	 total_images=81, 	 avg=0.05542, 	 std=0.02539, 	 avg_runtime=0.06
 RobustVerifier      -tanh, 	 total_images=81, 	 avg=0.05253, 	 std=0.02268, 	 avg_runtime=0.06
 ===========================================
@@ -75,11 +75,11 @@ model name = models/one_layer_models/fashion_mnist_cnn_2layer_2_5_sigmoid_local.
 NeWise              -sigmoid, 	 total_images=79, 	 avg=0.07863, 	 std=0.03286, 	 avg_runtime=0.07
 DeepCert            -sigmoid, 	 total_images=79, 	 avg=0.08226, 	 std=0.03532, 	 avg_runtime=0.09
 VeriNet             -sigmoid, 	 total_images=79, 	 avg=0.08222, 	 std=0.03551, 	 avg_runtime=0.08
-RobustVerifier      -sigmoid, 	 total_images=79, 	 avg=0.07767, 	 std=0.03111, 	 avg_runtime=0.07
+RobustVerifier      -sigmoid, 	 total_images=79, 	 avg=0.07768, 	 std=0.03112, 	 avg_runtime=0.07
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_2_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=85, 	 avg=0.05085, 	 std=0.02395, 	 avg_runtime=0.07
-DeepCert            -tanh, 	 total_images=85, 	 avg=0.04818, 	 std=0.02136, 	 avg_runtime=0.09
+DeepCert            -tanh, 	 total_images=85, 	 avg=0.05357, 	 std=0.02597, 	 avg_runtime=0.10
 VeriNet             -tanh, 	 total_images=85, 	 avg=0.05351, 	 std=0.02602, 	 avg_runtime=0.08
 RobustVerifier      -tanh, 	 total_images=85, 	 avg=0.05087, 	 std=0.02335, 	 avg_runtime=0.07
 ===========================================
@@ -87,11 +87,11 @@ model name = models/one_layer_models/fashion_mnist_cnn_2layer_3_5_sigmoid_local.
 NeWise              -sigmoid, 	 total_images=79, 	 avg=0.08184, 	 std=0.03587, 	 avg_runtime=0.08
 DeepCert            -sigmoid, 	 total_images=79, 	 avg=0.08435, 	 std=0.03714, 	 avg_runtime=0.11
 VeriNet             -sigmoid, 	 total_images=79, 	 avg=0.08434, 	 std=0.03741, 	 avg_runtime=0.09
-RobustVerifier      -sigmoid, 	 total_images=79, 	 avg=0.08108, 	 std=0.03441, 	 avg_runtime=0.08
+RobustVerifier      -sigmoid, 	 total_images=79, 	 avg=0.08108, 	 std=0.03442, 	 avg_runtime=0.08
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_3_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=86, 	 avg=0.04779, 	 std=0.02199, 	 avg_runtime=0.08
-DeepCert            -tanh, 	 total_images=86, 	 avg=0.04645, 	 std=0.02139, 	 avg_runtime=0.11
+DeepCert            -tanh, 	 total_images=86, 	 avg=0.05065, 	 std=0.02447, 	 avg_runtime=0.12
 VeriNet             -tanh, 	 total_images=86, 	 avg=0.05057, 	 std=0.02446, 	 avg_runtime=0.10
 RobustVerifier      -tanh, 	 total_images=86, 	 avg=0.04785, 	 std=0.02151, 	 avg_runtime=0.08
 ===========================================
@@ -99,23 +99,23 @@ model name = models/one_layer_models/fashion_mnist_cnn_2layer_4_5_sigmoid_local.
 NeWise              -sigmoid, 	 total_images=85, 	 avg=0.07831, 	 std=0.03432, 	 avg_runtime=0.09
 DeepCert            -sigmoid, 	 total_images=85, 	 avg=0.08143, 	 std=0.03659, 	 avg_runtime=0.13
 VeriNet             -sigmoid, 	 total_images=85, 	 avg=0.08140, 	 std=0.03671, 	 avg_runtime=0.10
-RobustVerifier      -sigmoid, 	 total_images=85, 	 avg=0.07838, 	 std=0.03365, 	 avg_runtime=0.09
+RobustVerifier      -sigmoid, 	 total_images=85, 	 avg=0.07838, 	 std=0.03364, 	 avg_runtime=0.09
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_4_5_tanh_local.h5
 NeWise              -tanh, 	 total_images=84, 	 avg=0.04861, 	 std=0.02185, 	 avg_runtime=0.09
-DeepCert            -tanh, 	 total_images=84, 	 avg=0.04747, 	 std=0.02129, 	 avg_runtime=0.13
+DeepCert            -tanh, 	 total_images=84, 	 avg=0.05185, 	 std=0.02463, 	 avg_runtime=0.14
 VeriNet             -tanh, 	 total_images=84, 	 avg=0.05179, 	 std=0.02459, 	 avg_runtime=0.11
-RobustVerifier      -tanh, 	 total_images=84, 	 avg=0.04942, 	 std=0.02191, 	 avg_runtime=0.10
+RobustVerifier      -tanh, 	 total_images=84, 	 avg=0.04942, 	 std=0.02191, 	 avg_runtime=0.09
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_5_3_sigmoid.h5
 NeWise              -sigmoid, 	 total_images=83, 	 avg=0.06949, 	 std=0.03355, 	 avg_runtime=0.07
 DeepCert            -sigmoid, 	 total_images=83, 	 avg=0.07004, 	 std=0.03397, 	 avg_runtime=0.13
 VeriNet             -sigmoid, 	 total_images=83, 	 avg=0.06994, 	 std=0.03402, 	 avg_runtime=0.08
-RobustVerifier      -sigmoid, 	 total_images=83, 	 avg=0.06781, 	 std=0.03125, 	 avg_runtime=0.08
+RobustVerifier      -sigmoid, 	 total_images=83, 	 avg=0.06780, 	 std=0.03124, 	 avg_runtime=0.07
 ===========================================
 model name = models/one_layer_models/fashion_mnist_cnn_2layer_5_3_tanh.h5
 NeWise              -tanh, 	 total_images=89, 	 avg=0.03335, 	 std=0.01807, 	 avg_runtime=0.08
-DeepCert            -tanh, 	 total_images=89, 	 avg=0.03217, 	 std=0.01693, 	 avg_runtime=0.12
+DeepCert            -tanh, 	 total_images=89, 	 avg=0.03356, 	 std=0.01834, 	 avg_runtime=0.14
 VeriNet             -tanh, 	 total_images=89, 	 avg=0.03352, 	 std=0.01835, 	 avg_runtime=0.09
 RobustVerifier      -tanh, 	 total_images=89, 	 avg=0.03246, 	 std=0.01665, 	 avg_runtime=0.08
 ===========================================
@@ -123,11 +123,11 @@ model name = models/one_layer_models/mnist_fnn_1x50_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=97, 	 avg=0.02627, 	 std=0.00817, 	 avg_runtime=0.03
 DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.02752, 	 std=0.00820, 	 avg_runtime=0.03
 VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.02788, 	 std=0.00850, 	 avg_runtime=0.03
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.02352, 	 std=0.00624, 	 avg_runtime=0.03
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.02353, 	 std=0.00623, 	 avg_runtime=0.03
 ===========================================
 model name = models/one_layer_models/mnist_fnn_1x50_tanh_local.h5
 NeWise              -tanh, 	 total_images=99, 	 avg=0.01821, 	 std=0.00534, 	 avg_runtime=0.03
-DeepCert            -tanh, 	 total_images=99, 	 avg=0.01710, 	 std=0.00507, 	 avg_runtime=0.03
+DeepCert            -tanh, 	 total_images=99, 	 avg=0.01968, 	 std=0.00560, 	 avg_runtime=0.03
 VeriNet             -tanh, 	 total_images=99, 	 avg=0.01988, 	 std=0.00578, 	 avg_runtime=0.03
 RobustVerifier      -tanh, 	 total_images=99, 	 avg=0.01667, 	 std=0.00420, 	 avg_runtime=0.03
 ===========================================
@@ -139,7 +139,7 @@ RobustVerifier      -sigmoid, 	 total_images=98, 	 avg=0.02151, 	 std=0.00498, 	
 ===========================================
 model name = models/one_layer_models/mnist_fnn_1x100_tanh_local.h5
 NeWise              -tanh, 	 total_images=99, 	 avg=0.01590, 	 std=0.00444, 	 avg_runtime=0.04
-DeepCert            -tanh, 	 total_images=99, 	 avg=0.01508, 	 std=0.00418, 	 avg_runtime=0.04
+DeepCert            -tanh, 	 total_images=99, 	 avg=0.01772, 	 std=0.00489, 	 avg_runtime=0.05
 VeriNet             -tanh, 	 total_images=99, 	 avg=0.01790, 	 std=0.00504, 	 avg_runtime=0.05
 RobustVerifier      -tanh, 	 total_images=99, 	 avg=0.01520, 	 std=0.00371, 	 avg_runtime=0.04
 ===========================================
@@ -147,11 +147,11 @@ model name = models/one_layer_models/mnist_fnn_1x150_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=97, 	 avg=0.02680, 	 std=0.00778, 	 avg_runtime=0.06
 DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.02898, 	 std=0.00827, 	 avg_runtime=0.06
 VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.02918, 	 std=0.00853, 	 avg_runtime=0.06
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.02543, 	 std=0.00642, 	 avg_runtime=0.06
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.02543, 	 std=0.00641, 	 avg_runtime=0.06
 ===========================================
 model name = models/one_layer_models/mnist_fnn_1x150_tanh_local.h5
 NeWise              -tanh, 	 total_images=99, 	 avg=0.01744, 	 std=0.00486, 	 avg_runtime=0.06
-DeepCert            -tanh, 	 total_images=99, 	 avg=0.01687, 	 std=0.00463, 	 avg_runtime=0.06
+DeepCert            -tanh, 	 total_images=99, 	 avg=0.01971, 	 std=0.00547, 	 avg_runtime=0.06
 VeriNet             -tanh, 	 total_images=99, 	 avg=0.01984, 	 std=0.00560, 	 avg_runtime=0.06
 RobustVerifier      -tanh, 	 total_images=99, 	 avg=0.01707, 	 std=0.00422, 	 avg_runtime=0.06
 ===========================================
@@ -159,11 +159,11 @@ model name = models/one_layer_models/mnist_fnn_1x200_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=9, 	 avg=0.02378, 	 std=0.00661, 	 avg_runtime=0.07
 DeepCert            -sigmoid, 	 total_images=9, 	 avg=0.02602, 	 std=0.00740, 	 avg_runtime=0.07
 VeriNet             -sigmoid, 	 total_images=9, 	 avg=0.02615, 	 std=0.00756, 	 avg_runtime=0.07
-RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.02304, 	 std=0.00577, 	 avg_runtime=0.07
+RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.02303, 	 std=0.00577, 	 avg_runtime=0.07
 ===========================================
 model name = models/one_layer_models/mnist_fnn_1x200_tanh_local.h5
 NeWise              -tanh, 	 total_images=9, 	 avg=0.01589, 	 std=0.00382, 	 avg_runtime=0.07
-DeepCert            -tanh, 	 total_images=9, 	 avg=0.01542, 	 std=0.00342, 	 avg_runtime=0.08
+DeepCert            -tanh, 	 total_images=9, 	 avg=0.01828, 	 std=0.00443, 	 avg_runtime=0.08
 VeriNet             -tanh, 	 total_images=9, 	 avg=0.01837, 	 std=0.00454, 	 avg_runtime=0.07
 RobustVerifier      -tanh, 	 total_images=9, 	 avg=0.01615, 	 std=0.00350, 	 avg_runtime=0.07
 ===========================================
@@ -171,11 +171,11 @@ model name = models/one_layer_models/mnist_fnn_1x250_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=9, 	 avg=0.02316, 	 std=0.00646, 	 avg_runtime=0.09
 DeepCert            -sigmoid, 	 total_images=9, 	 avg=0.02557, 	 std=0.00745, 	 avg_runtime=0.09
 VeriNet             -sigmoid, 	 total_images=9, 	 avg=0.02566, 	 std=0.00757, 	 avg_runtime=0.09
-RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.02290, 	 std=0.00597, 	 avg_runtime=0.09
+RobustVerifier      -sigmoid, 	 total_images=9, 	 avg=0.02291, 	 std=0.00597, 	 avg_runtime=0.09
 ===========================================
 model name = models/one_layer_models/mnist_fnn_1x250_tanh_local.h5
 NeWise              -tanh, 	 total_images=9, 	 avg=0.01440, 	 std=0.00325, 	 avg_runtime=0.09
-DeepCert            -tanh, 	 total_images=9, 	 avg=0.01414, 	 std=0.00317, 	 avg_runtime=0.09
+DeepCert            -tanh, 	 total_images=9, 	 avg=0.01657, 	 std=0.00398, 	 avg_runtime=0.09
 VeriNet             -tanh, 	 total_images=9, 	 avg=0.01663, 	 std=0.00405, 	 avg_runtime=0.09
 RobustVerifier      -tanh, 	 total_images=9, 	 avg=0.01471, 	 std=0.00314, 	 avg_runtime=0.09
 ===========================================
@@ -183,11 +183,11 @@ model name = models/one_layer_models/fashion_mnist_fnn_1x50_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=86, 	 avg=0.03284, 	 std=0.01165, 	 avg_runtime=0.03
 DeepCert            -sigmoid, 	 total_images=86, 	 avg=0.03511, 	 std=0.01174, 	 avg_runtime=0.03
 VeriNet             -sigmoid, 	 total_images=86, 	 avg=0.03560, 	 std=0.01219, 	 avg_runtime=0.03
-RobustVerifier      -sigmoid, 	 total_images=86, 	 avg=0.02922, 	 std=0.00891, 	 avg_runtime=0.03
+RobustVerifier      -sigmoid, 	 total_images=86, 	 avg=0.02922, 	 std=0.00888, 	 avg_runtime=0.03
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x50_tanh_local.h5
 NeWise              -tanh, 	 total_images=89, 	 avg=0.02112, 	 std=0.00730, 	 avg_runtime=0.03
-DeepCert            -tanh, 	 total_images=89, 	 avg=0.02060, 	 std=0.00673, 	 avg_runtime=0.03
+DeepCert            -tanh, 	 total_images=89, 	 avg=0.02346, 	 std=0.00780, 	 avg_runtime=0.03
 VeriNet             -tanh, 	 total_images=89, 	 avg=0.02371, 	 std=0.00810, 	 avg_runtime=0.03
 RobustVerifier      -tanh, 	 total_images=89, 	 avg=0.01927, 	 std=0.00568, 	 avg_runtime=0.03
 ===========================================
@@ -195,12 +195,12 @@ model name = models/one_layer_models/fashion_mnist_fnn_1x100_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=88, 	 avg=0.02998, 	 std=0.01100, 	 avg_runtime=0.04
 DeepCert            -sigmoid, 	 total_images=88, 	 avg=0.03307, 	 std=0.01194, 	 avg_runtime=0.04
 VeriNet             -sigmoid, 	 total_images=88, 	 avg=0.03341, 	 std=0.01225, 	 avg_runtime=0.04
-RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.02756, 	 std=0.00877, 	 avg_runtime=0.04
+RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.02755, 	 std=0.00876, 	 avg_runtime=0.04
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x100_tanh_local.h5
 NeWise              -tanh, 	 total_images=89, 	 avg=0.01848, 	 std=0.00578, 	 avg_runtime=0.04
-DeepCert            -tanh, 	 total_images=89, 	 avg=0.01850, 	 std=0.00588, 	 avg_runtime=0.04
-VeriNet             -tanh, 	 total_images=89, 	 avg=0.02133, 	 std=0.00677, 	 avg_runtime=0.04
+DeepCert            -tanh, 	 total_images=89, 	 avg=0.02118, 	 std=0.00662, 	 avg_runtime=0.05
+VeriNet             -tanh, 	 total_images=89, 	 avg=0.02133, 	 std=0.00677, 	 avg_runtime=0.05
 RobustVerifier      -tanh, 	 total_images=89, 	 avg=0.01767, 	 std=0.00483, 	 avg_runtime=0.04
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x150_sigmoid_local.h5
@@ -211,7 +211,7 @@ RobustVerifier      -sigmoid, 	 total_images=87, 	 avg=0.03170, 	 std=0.00900, 	
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x150_tanh_local.h5
 NeWise              -tanh, 	 total_images=88, 	 avg=0.02013, 	 std=0.00634, 	 avg_runtime=0.06
-DeepCert            -tanh, 	 total_images=88, 	 avg=0.02080, 	 std=0.00677, 	 avg_runtime=0.06
+DeepCert            -tanh, 	 total_images=88, 	 avg=0.02377, 	 std=0.00771, 	 avg_runtime=0.06
 VeriNet             -tanh, 	 total_images=88, 	 avg=0.02390, 	 std=0.00785, 	 avg_runtime=0.06
 RobustVerifier      -tanh, 	 total_images=88, 	 avg=0.01977, 	 std=0.00560, 	 avg_runtime=0.06
 ===========================================
@@ -219,11 +219,11 @@ model name = models/one_layer_models/fashion_mnist_fnn_1x200_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=88, 	 avg=0.03375, 	 std=0.01144, 	 avg_runtime=0.07
 DeepCert            -sigmoid, 	 total_images=88, 	 avg=0.03777, 	 std=0.01292, 	 avg_runtime=0.07
 VeriNet             -sigmoid, 	 total_images=88, 	 avg=0.03803, 	 std=0.01321, 	 avg_runtime=0.07
-RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.03182, 	 std=0.00960, 	 avg_runtime=0.07
+RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.03183, 	 std=0.00960, 	 avg_runtime=0.07
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x200_tanh_local.h5
 NeWise              -tanh, 	 total_images=87, 	 avg=0.01930, 	 std=0.00612, 	 avg_runtime=0.07
-DeepCert            -tanh, 	 total_images=87, 	 avg=0.01993, 	 std=0.00649, 	 avg_runtime=0.08
+DeepCert            -tanh, 	 total_images=87, 	 avg=0.02280, 	 std=0.00742, 	 avg_runtime=0.07
 VeriNet             -tanh, 	 total_images=87, 	 avg=0.02292, 	 std=0.00754, 	 avg_runtime=0.07
 RobustVerifier      -tanh, 	 total_images=87, 	 avg=0.01921, 	 std=0.00555, 	 avg_runtime=0.07
 ===========================================
@@ -231,10 +231,11 @@ model name = models/one_layer_models/fashion_mnist_fnn_1x250_sigmoid_local.h5
 NeWise              -sigmoid, 	 total_images=88, 	 avg=0.03432, 	 std=0.01139, 	 avg_runtime=0.09
 DeepCert            -sigmoid, 	 total_images=88, 	 avg=0.03849, 	 std=0.01262, 	 avg_runtime=0.09
 VeriNet             -sigmoid, 	 total_images=88, 	 avg=0.03866, 	 std=0.01279, 	 avg_runtime=0.09
-RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.03265, 	 std=0.00956, 	 avg_runtime=0.09
+RobustVerifier      -sigmoid, 	 total_images=88, 	 avg=0.03263, 	 std=0.00955, 	 avg_runtime=0.09
 ===========================================
 model name = models/one_layer_models/fashion_mnist_fnn_1x250_tanh_local.h5
 NeWise              -tanh, 	 total_images=89, 	 avg=0.01890, 	 std=0.00537, 	 avg_runtime=0.09
-DeepCert            -tanh, 	 total_images=89, 	 avg=0.01961, 	 std=0.00585, 	 avg_runtime=0.09
+DeepCert            -tanh, 	 total_images=89, 	 avg=0.02247, 	 std=0.00661, 	 avg_runtime=0.09
 VeriNet             -tanh, 	 total_images=89, 	 avg=0.02256, 	 std=0.00671, 	 avg_runtime=0.09
 RobustVerifier      -tanh, 	 total_images=89, 	 avg=0.01907, 	 std=0.00486, 	 avg_runtime=0.09
+generat the log of table 9 finished!!!
