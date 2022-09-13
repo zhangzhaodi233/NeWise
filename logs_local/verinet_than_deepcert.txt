@@ -2424,7 +2424,7 @@ model name = models/mixed_models/ffnnSIGMOID__Point_6x200.h5
 -130.97955, 97.11353
 -121.65582, 81.92842
 -67.96957, 37.10651
-[L0] DeepCert            -sigmoid, 	 total_images=1, 	 avg=0.00000, 	 std=0.00000, 	 avg_runtime=11.61
+[L0] DeepCert            -sigmoid, 	 total_images=1, 	 avg=0.00000, 	 std=0.00000, 	 avg_runtime=12.19
 ====================== Overapproximation ======================
 --------------------1 layer -------------------
 28.71780, 43.71467
@@ -4849,5 +4849,5 @@ model name = models/mixed_models/ffnnSIGMOID__Point_6x200.h5
 -134.86288, 86.81628
 -127.48021, 70.61420
 -68.45577, 33.89381
-[L0] VeriNet             -sigmoid, 	 total_images=1, 	 avg=0.00000, 	 std=0.00000, 	 avg_runtime=1.86
+[L0] VeriNet             -sigmoid, 	 total_images=1, 	 avg=0.00000, 	 std=0.00000, 	 avg_runtime=1.87
 generat middle interval finished!!!
