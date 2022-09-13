@@ -1,21 +1,21 @@
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_ffnn_5x100_with_positive_weights_8858.h5
-NeWise              -sigmoid, 	 total_images=91, 	 avg=0.00906, 	 std=0.00569, 	 avg_runtime=4.33
-DeepCert            -sigmoid, 	 total_images=91, 	 avg=0.00707, 	 std=0.00415, 	 avg_runtime=4.37
-VeriNet             -sigmoid, 	 total_images=91, 	 avg=0.00712, 	 std=0.00420, 	 avg_runtime=4.33
-RobustVerifier      -sigmoid, 	 total_images=91, 	 avg=0.00644, 	 std=0.00338, 	 avg_runtime=4.34
+NeWise              -sigmoid, 	 total_images=91, 	 avg=0.00906, 	 std=0.00569, 	 avg_runtime=4.30
+DeepCert            -sigmoid, 	 total_images=91, 	 avg=0.00707, 	 std=0.00415, 	 avg_runtime=4.30
+VeriNet             -sigmoid, 	 total_images=91, 	 avg=0.00712, 	 std=0.00420, 	 avg_runtime=4.30
+RobustVerifier      -sigmoid, 	 total_images=91, 	 avg=0.00643, 	 std=0.00336, 	 avg_runtime=4.32
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_ffnn_3x700_with_positive_weights_9537.h5
-NeWise              -sigmoid, 	 total_images=98, 	 avg=0.00371, 	 std=0.00183, 	 avg_runtime=117.09
-DeepCert            -sigmoid, 	 total_images=98, 	 avg=0.00297, 	 std=0.00129, 	 avg_runtime=117.31
-VeriNet             -sigmoid, 	 total_images=98, 	 avg=0.00302, 	 std=0.00136, 	 avg_runtime=117.04
-RobustVerifier      -sigmoid, 	 total_images=98, 	 avg=0.00293, 	 std=0.00130, 	 avg_runtime=117.31
+NeWise              -sigmoid, 	 total_images=98, 	 avg=0.00371, 	 std=0.00183, 	 avg_runtime=117.92
+DeepCert            -sigmoid, 	 total_images=98, 	 avg=0.00297, 	 std=0.00129, 	 avg_runtime=118.01
+VeriNet             -sigmoid, 	 total_images=98, 	 avg=0.00302, 	 std=0.00136, 	 avg_runtime=118.19
+RobustVerifier      -sigmoid, 	 total_images=98, 	 avg=0.00292, 	 std=0.00129, 	 avg_runtime=117.62
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_cnn_6layer_5_3_with_positive_weights.h5
-NeWise              -sigmoid, 	 total_images=95, 	 avg=0.09677, 	 std=0.03723, 	 avg_runtime=5.56
+NeWise              -sigmoid, 	 total_images=95, 	 avg=0.09677, 	 std=0.03723, 	 avg_runtime=5.57
 DeepCert            -sigmoid, 	 total_images=95, 	 avg=0.07879, 	 std=0.02801, 	 avg_runtime=6.12
-VeriNet             -sigmoid, 	 total_images=95, 	 avg=0.07781, 	 std=0.02756, 	 avg_runtime=5.57
-RobustVerifier      -sigmoid, 	 total_images=95, 	 avg=0.06988, 	 std=0.02119, 	 avg_runtime=5.55
+VeriNet             -sigmoid, 	 total_images=95, 	 avg=0.07781, 	 std=0.02756, 	 avg_runtime=5.56
+RobustVerifier      -sigmoid, 	 total_images=95, 	 avg=0.06987, 	 std=0.02117, 	 avg_runtime=5.53
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_ffnn_3x50_with_positive_weights_9118.h5
 NeWise              -sigmoid, 	 total_images=92, 	 avg=0.01054, 	 std=0.00507, 	 avg_runtime=0.14
@@ -24,16 +24,16 @@ VeriNet             -sigmoid, 	 total_images=92, 	 avg=0.00882, 	 std=0.00382, 	
 RobustVerifier      -sigmoid, 	 total_images=92, 	 avg=0.00802, 	 std=0.00295, 	 avg_runtime=0.14
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_ffnn_3x100_with_positive_weights_9162.h5
-NeWise              -sigmoid, 	 total_images=91, 	 avg=0.01389, 	 std=0.00709, 	 avg_runtime=2.13
-DeepCert            -sigmoid, 	 total_images=91, 	 avg=0.01203, 	 std=0.00568, 	 avg_runtime=2.14
-VeriNet             -sigmoid, 	 total_images=91, 	 avg=0.01202, 	 std=0.00575, 	 avg_runtime=2.14
-RobustVerifier      -sigmoid, 	 total_images=91, 	 avg=0.01107, 	 std=0.00463, 	 avg_runtime=2.13
+NeWise              -sigmoid, 	 total_images=91, 	 avg=0.01389, 	 std=0.00709, 	 avg_runtime=2.21
+DeepCert            -sigmoid, 	 total_images=91, 	 avg=0.01203, 	 std=0.00568, 	 avg_runtime=2.24
+VeriNet             -sigmoid, 	 total_images=91, 	 avg=0.01202, 	 std=0.00575, 	 avg_runtime=2.21
+RobustVerifier      -sigmoid, 	 total_images=91, 	 avg=0.01107, 	 std=0.00462, 	 avg_runtime=2.22
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_cnn_5layer_5_3_with_positive_weights.h5
-NeWise              -sigmoid, 	 total_images=92, 	 avg=0.08007, 	 std=0.02381, 	 avg_runtime=2.77
+NeWise              -sigmoid, 	 total_images=92, 	 avg=0.08007, 	 std=0.02381, 	 avg_runtime=2.75
 DeepCert            -sigmoid, 	 total_images=92, 	 avg=0.07077, 	 std=0.02003, 	 avg_runtime=3.20
-VeriNet             -sigmoid, 	 total_images=92, 	 avg=0.07039, 	 std=0.01976, 	 avg_runtime=2.81
-RobustVerifier      -sigmoid, 	 total_images=92, 	 avg=0.06825, 	 std=0.01799, 	 avg_runtime=2.79
+VeriNet             -sigmoid, 	 total_images=92, 	 avg=0.07039, 	 std=0.01976, 	 avg_runtime=2.80
+RobustVerifier      -sigmoid, 	 total_images=92, 	 avg=0.06826, 	 std=0.01801, 	 avg_runtime=2.78
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_cnn_3layer_2_3_with_positive_weights_9120.h5
 NeWise              -sigmoid, 	 total_images=92, 	 avg=0.05209, 	 std=0.01802, 	 avg_runtime=0.16
@@ -42,10 +42,10 @@ VeriNet             -sigmoid, 	 total_images=92, 	 avg=0.04826, 	 std=0.01603, 	
 RobustVerifier      -sigmoid, 	 total_images=92, 	 avg=0.04784, 	 std=0.01561, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_cnn_4layer_5_3_with_positive_weights_8563.h5
-NeWise              -sigmoid, 	 total_images=85, 	 avg=0.05050, 	 std=0.02065, 	 avg_runtime=1.10
+NeWise              -sigmoid, 	 total_images=85, 	 avg=0.05050, 	 std=0.02065, 	 avg_runtime=1.09
 DeepCert            -sigmoid, 	 total_images=85, 	 avg=0.04734, 	 std=0.01856, 	 avg_runtime=1.37
 VeriNet             -sigmoid, 	 total_images=85, 	 avg=0.04708, 	 std=0.01830, 	 avg_runtime=1.12
-RobustVerifier      -sigmoid, 	 total_images=85, 	 avg=0.04641, 	 std=0.01753, 	 avg_runtime=1.11
+RobustVerifier      -sigmoid, 	 total_images=85, 	 avg=0.04641, 	 std=0.01752, 	 avg_runtime=1.11
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/mnist_cnn_3layer_4_3_with_positive_weights_9151.h5
 NeWise              -sigmoid, 	 total_images=92, 	 avg=0.04477, 	 std=0.01559, 	 avg_runtime=0.27
@@ -54,58 +54,58 @@ VeriNet             -sigmoid, 	 total_images=92, 	 avg=0.04214, 	 std=0.01415, 	
 RobustVerifier      -sigmoid, 	 total_images=92, 	 avg=0.04185, 	 std=0.01385, 	 avg_runtime=0.28
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_ffnn_4x100_with_positive_weights_sigmoid.h5
-NeWise              -sigmoid, 	 total_images=73, 	 avg=0.03116, 	 std=0.04034, 	 avg_runtime=3.20
-DeepCert            -sigmoid, 	 total_images=73, 	 avg=0.01883, 	 std=0.02098, 	 avg_runtime=3.18
-VeriNet             -sigmoid, 	 total_images=73, 	 avg=0.01940, 	 std=0.02202, 	 avg_runtime=3.19
-RobustVerifier      -sigmoid, 	 total_images=73, 	 avg=0.01588, 	 std=0.01759, 	 avg_runtime=3.22
+NeWise              -sigmoid, 	 total_images=73, 	 avg=0.03116, 	 std=0.04034, 	 avg_runtime=3.33
+DeepCert            -sigmoid, 	 total_images=73, 	 avg=0.01883, 	 std=0.02098, 	 avg_runtime=3.33
+VeriNet             -sigmoid, 	 total_images=73, 	 avg=0.01940, 	 std=0.02202, 	 avg_runtime=3.27
+RobustVerifier      -sigmoid, 	 total_images=73, 	 avg=0.01588, 	 std=0.01758, 	 avg_runtime=3.32
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_ffnn_3x100_with_positive_weights_sigmoid.h5
-NeWise              -sigmoid, 	 total_images=81, 	 avg=0.03263, 	 std=0.03350, 	 avg_runtime=2.13
-DeepCert            -sigmoid, 	 total_images=81, 	 avg=0.02631, 	 std=0.02624, 	 avg_runtime=2.13
-VeriNet             -sigmoid, 	 total_images=81, 	 avg=0.02696, 	 std=0.02817, 	 avg_runtime=2.15
-RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.02384, 	 std=0.02339, 	 avg_runtime=2.13
+NeWise              -sigmoid, 	 total_images=81, 	 avg=0.03263, 	 std=0.03350, 	 avg_runtime=2.21
+DeepCert            -sigmoid, 	 total_images=81, 	 avg=0.02631, 	 std=0.02624, 	 avg_runtime=2.22
+VeriNet             -sigmoid, 	 total_images=81, 	 avg=0.02696, 	 std=0.02817, 	 avg_runtime=2.22
+RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.02385, 	 std=0.02339, 	 avg_runtime=2.22
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_cnn_5layer_5_3_with_positive_weights_sigmoid.h5
-NeWise              -sigmoid, 	 total_images=70, 	 avg=0.13030, 	 std=0.08299, 	 avg_runtime=2.76
+NeWise              -sigmoid, 	 total_images=70, 	 avg=0.13030, 	 std=0.08299, 	 avg_runtime=2.75
 DeepCert            -sigmoid, 	 total_images=70, 	 avg=0.11550, 	 std=0.07140, 	 avg_runtime=3.22
-VeriNet             -sigmoid, 	 total_images=70, 	 avg=0.11509, 	 std=0.07210, 	 avg_runtime=2.84
-RobustVerifier      -sigmoid, 	 total_images=70, 	 avg=0.10883, 	 std=0.06358, 	 avg_runtime=2.79
+VeriNet             -sigmoid, 	 total_images=70, 	 avg=0.11509, 	 std=0.07210, 	 avg_runtime=2.82
+RobustVerifier      -sigmoid, 	 total_images=70, 	 avg=0.10884, 	 std=0.06359, 	 avg_runtime=2.78
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_cnn_3layer_2_3_with_positive_weights_sigmoid.h5
-NeWise              -sigmoid, 	 total_images=81, 	 avg=0.07896, 	 std=0.04972, 	 avg_runtime=0.16
+NeWise              -sigmoid, 	 total_images=81, 	 avg=0.07896, 	 std=0.04972, 	 avg_runtime=0.15
 DeepCert            -sigmoid, 	 total_images=81, 	 avg=0.07127, 	 std=0.04159, 	 avg_runtime=0.21
 VeriNet             -sigmoid, 	 total_images=81, 	 avg=0.07130, 	 std=0.04176, 	 avg_runtime=0.16
-RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.06946, 	 std=0.03854, 	 avg_runtime=0.16
+RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.06946, 	 std=0.03855, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_cnn_4layer_5_3_with_positive_weights_sigmoid.h5
-NeWise              -sigmoid, 	 total_images=75, 	 avg=0.09586, 	 std=0.05615, 	 avg_runtime=1.10
-DeepCert            -sigmoid, 	 total_images=75, 	 avg=0.08683, 	 std=0.04861, 	 avg_runtime=1.40
-VeriNet             -sigmoid, 	 total_images=75, 	 avg=0.08644, 	 std=0.04819, 	 avg_runtime=1.15
+NeWise              -sigmoid, 	 total_images=75, 	 avg=0.09586, 	 std=0.05615, 	 avg_runtime=1.09
+DeepCert            -sigmoid, 	 total_images=75, 	 avg=0.08683, 	 std=0.04861, 	 avg_runtime=1.39
+VeriNet             -sigmoid, 	 total_images=75, 	 avg=0.08644, 	 std=0.04819, 	 avg_runtime=1.14
 RobustVerifier      -sigmoid, 	 total_images=75, 	 avg=0.08395, 	 std=0.04527, 	 avg_runtime=1.11
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/fashion_mnist_cnn_3layer_4_3_with_positive_weights_sigmoid.h5
 NeWise              -sigmoid, 	 total_images=81, 	 avg=0.07466, 	 std=0.04646, 	 avg_runtime=0.27
 DeepCert            -sigmoid, 	 total_images=81, 	 avg=0.06944, 	 std=0.04100, 	 avg_runtime=0.39
-VeriNet             -sigmoid, 	 total_images=81, 	 avg=0.06931, 	 std=0.04090, 	 avg_runtime=0.29
-RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.06806, 	 std=0.03908, 	 avg_runtime=0.28
+VeriNet             -sigmoid, 	 total_images=81, 	 avg=0.06931, 	 std=0.04090, 	 avg_runtime=0.28
+RobustVerifier      -sigmoid, 	 total_images=81, 	 avg=0.06806, 	 std=0.03909, 	 avg_runtime=0.27
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_ffnn_9x100_with_positive_weights_2913_cpu.h5
-NeWise              -sigmoid, 	 total_images=37, 	 avg=0.03149, 	 std=0.02796, 	 avg_runtime=4.96
-DeepCert            -sigmoid, 	 total_images=37, 	 avg=0.02113, 	 std=0.01831, 	 avg_runtime=5.02
-VeriNet             -sigmoid, 	 total_images=37, 	 avg=0.02143, 	 std=0.01860, 	 avg_runtime=5.00
-RobustVerifier      -sigmoid, 	 total_images=37, 	 avg=0.01922, 	 std=0.01322, 	 avg_runtime=4.98
+NeWise              -sigmoid, 	 total_images=37, 	 avg=0.03149, 	 std=0.02796, 	 avg_runtime=4.91
+DeepCert            -sigmoid, 	 total_images=37, 	 avg=0.02113, 	 std=0.01831, 	 avg_runtime=4.93
+VeriNet             -sigmoid, 	 total_images=37, 	 avg=0.02143, 	 std=0.01860, 	 avg_runtime=4.92
+RobustVerifier      -sigmoid, 	 total_images=37, 	 avg=0.01925, 	 std=0.01331, 	 avg_runtime=4.92
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_ffnn_6x100_with_positive_weights_3638_cpu.h5
-NeWise              -sigmoid, 	 total_images=39, 	 avg=0.02215, 	 std=0.01647, 	 avg_runtime=3.08
-DeepCert            -sigmoid, 	 total_images=39, 	 avg=0.01743, 	 std=0.01176, 	 avg_runtime=3.09
-VeriNet             -sigmoid, 	 total_images=39, 	 avg=0.01756, 	 std=0.01195, 	 avg_runtime=3.06
-RobustVerifier      -sigmoid, 	 total_images=39, 	 avg=0.01701, 	 std=0.01110, 	 avg_runtime=3.06
+NeWise              -sigmoid, 	 total_images=39, 	 avg=0.02215, 	 std=0.01647, 	 avg_runtime=3.04
+DeepCert            -sigmoid, 	 total_images=39, 	 avg=0.01743, 	 std=0.01176, 	 avg_runtime=3.06
+VeriNet             -sigmoid, 	 total_images=39, 	 avg=0.01756, 	 std=0.01195, 	 avg_runtime=3.04
+RobustVerifier      -sigmoid, 	 total_images=39, 	 avg=0.01701, 	 std=0.01111, 	 avg_runtime=3.04
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_ffnn_5x100_with_positive_weights_4033_cpu.h5
-NeWise              -sigmoid, 	 total_images=43, 	 avg=0.02000, 	 std=0.01372, 	 avg_runtime=2.45
-DeepCert            -sigmoid, 	 total_images=43, 	 avg=0.01670, 	 std=0.01041, 	 avg_runtime=2.46
-VeriNet             -sigmoid, 	 total_images=43, 	 avg=0.01674, 	 std=0.01044, 	 avg_runtime=2.46
-RobustVerifier      -sigmoid, 	 total_images=43, 	 avg=0.01633, 	 std=0.00990, 	 avg_runtime=2.45
+NeWise              -sigmoid, 	 total_images=43, 	 avg=0.02000, 	 std=0.01372, 	 avg_runtime=2.44
+DeepCert            -sigmoid, 	 total_images=43, 	 avg=0.01670, 	 std=0.01041, 	 avg_runtime=2.45
+VeriNet             -sigmoid, 	 total_images=43, 	 avg=0.01674, 	 std=0.01044, 	 avg_runtime=2.43
+RobustVerifier      -sigmoid, 	 total_images=43, 	 avg=0.01634, 	 std=0.00991, 	 avg_runtime=2.44
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_ffnn_3x50_with_positive_weights_4056_cpu.h5
 NeWise              -sigmoid, 	 total_images=41, 	 avg=0.02057, 	 std=0.01439, 	 avg_runtime=0.43
@@ -114,19 +114,20 @@ VeriNet             -sigmoid, 	 total_images=41, 	 avg=0.01794, 	 std=0.01149, 	
 RobustVerifier      -sigmoid, 	 total_images=41, 	 avg=0.01760, 	 std=0.01096, 	 avg_runtime=0.43
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_ffnn_4x100_with_positive_weights_3988_cpu.h5
-NeWise              -sigmoid, 	 total_images=49, 	 avg=0.01612, 	 std=0.01109, 	 avg_runtime=1.85
-DeepCert            -sigmoid, 	 total_images=49, 	 avg=0.01399, 	 std=0.00890, 	 avg_runtime=1.86
+NeWise              -sigmoid, 	 total_images=49, 	 avg=0.01612, 	 std=0.01109, 	 avg_runtime=1.84
+DeepCert            -sigmoid, 	 total_images=49, 	 avg=0.01399, 	 std=0.00890, 	 avg_runtime=1.85
 VeriNet             -sigmoid, 	 total_images=49, 	 avg=0.01404, 	 std=0.00897, 	 avg_runtime=1.85
-RobustVerifier      -sigmoid, 	 total_images=49, 	 avg=0.01383, 	 std=0.00868, 	 avg_runtime=1.85
+RobustVerifier      -sigmoid, 	 total_images=49, 	 avg=0.01383, 	 std=0.00869, 	 avg_runtime=1.85
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_cnn_3layer_4_3_with_positive_weights_3597.h5
 NeWise              -sigmoid, 	 total_images=35, 	 avg=0.01868, 	 std=0.01090, 	 avg_runtime=0.53
 DeepCert            -sigmoid, 	 total_images=35, 	 avg=0.01807, 	 std=0.01029, 	 avg_runtime=0.64
-VeriNet             -sigmoid, 	 total_images=35, 	 avg=0.01808, 	 std=0.01030, 	 avg_runtime=0.54
+VeriNet             -sigmoid, 	 total_images=35, 	 avg=0.01808, 	 std=0.01030, 	 avg_runtime=0.53
 RobustVerifier      -sigmoid, 	 total_images=35, 	 avg=0.01806, 	 std=0.01027, 	 avg_runtime=0.53
 ===========================================
 model name = models/models_with_positive_weights/sigmoid/cifar10_cnn_3layer_2_3_with_positive_weights_3812.h5
 NeWise              -sigmoid, 	 total_images=38, 	 avg=0.01849, 	 std=0.01250, 	 avg_runtime=0.28
 DeepCert            -sigmoid, 	 total_images=38, 	 avg=0.01804, 	 std=0.01198, 	 avg_runtime=0.36
 VeriNet             -sigmoid, 	 total_images=38, 	 avg=0.01803, 	 std=0.01198, 	 avg_runtime=0.29
-RobustVerifier      -sigmoid, 	 total_images=38, 	 avg=0.01801, 	 std=0.01195, 	 avg_runtime=0.29
+RobustVerifier      -sigmoid, 	 total_images=38, 	 avg=0.01801, 	 std=0.01195, 	 avg_runtime=0.28
+generat the log of table 2 finished!!!
