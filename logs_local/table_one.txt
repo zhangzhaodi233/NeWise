@@ -3,67 +3,67 @@ model name = models/mixed_models/mnist_ffnn_3x50.h5
 NeWise              -sigmoid, 	 total_images=96, 	 avg=0.00693, 	 std=0.00250, 	 avg_runtime=0.14
 DeepCert            -sigmoid, 	 total_images=96, 	 avg=0.00760, 	 std=0.00267, 	 avg_runtime=0.14
 VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.00768, 	 std=0.00276, 	 avg_runtime=0.14
-RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.00650, 	 std=0.00210, 	 avg_runtime=0.14
+RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.00650, 	 std=0.00211, 	 avg_runtime=0.14
 ===========================================
 model name = models/mixed_models/mnist_ffnn_3x100.h5
-NeWise              -sigmoid, 	 total_images=97, 	 avg=0.00777, 	 std=0.00257, 	 avg_runtime=2.19
+NeWise              -sigmoid, 	 total_images=97, 	 avg=0.00777, 	 std=0.00257, 	 avg_runtime=2.22
 DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.00858, 	 std=0.00286, 	 avg_runtime=2.18
-VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.00871, 	 std=0.00295, 	 avg_runtime=2.20
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.00743, 	 std=0.00233, 	 avg_runtime=2.18
+VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.00871, 	 std=0.00295, 	 avg_runtime=2.18
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.00744, 	 std=0.00233, 	 avg_runtime=2.17
 ===========================================
 model name = models/mixed_models/mnist_ffnn_3x200.h5
-NeWise              -sigmoid, 	 total_images=99, 	 avg=0.00801, 	 std=0.00255, 	 avg_runtime=7.13
-DeepCert            -sigmoid, 	 total_images=99, 	 avg=0.00907, 	 std=0.00297, 	 avg_runtime=7.10
-VeriNet             -sigmoid, 	 total_images=99, 	 avg=0.00914, 	 std=0.00305, 	 avg_runtime=7.09
-RobustVerifier      -sigmoid, 	 total_images=99, 	 avg=0.00793, 	 std=0.00243, 	 avg_runtime=7.09
+NeWise              -sigmoid, 	 total_images=99, 	 avg=0.00801, 	 std=0.00255, 	 avg_runtime=10.76
+DeepCert            -sigmoid, 	 total_images=99, 	 avg=0.00907, 	 std=0.00297, 	 avg_runtime=10.71
+VeriNet             -sigmoid, 	 total_images=99, 	 avg=0.00914, 	 std=0.00305, 	 avg_runtime=10.71
+RobustVerifier      -sigmoid, 	 total_images=99, 	 avg=0.00793, 	 std=0.00242, 	 avg_runtime=10.76
 ===========================================
 model name = models/mixed_models/mnist_ffnn_5x100.h5
-NeWise              -sigmoid, 	 total_images=99, 	 avg=0.00575, 	 std=0.00236, 	 avg_runtime=4.39
-DeepCert            -sigmoid, 	 total_images=99, 	 avg=0.00607, 	 std=0.00251, 	 avg_runtime=4.40
-VeriNet             -sigmoid, 	 total_images=99, 	 avg=0.00616, 	 std=0.00259, 	 avg_runtime=4.36
-RobustVerifier      -sigmoid, 	 total_images=99, 	 avg=0.00519, 	 std=0.00210, 	 avg_runtime=4.38
+NeWise              -sigmoid, 	 total_images=99, 	 avg=0.00575, 	 std=0.00236, 	 avg_runtime=4.43
+DeepCert            -sigmoid, 	 total_images=99, 	 avg=0.00607, 	 std=0.00251, 	 avg_runtime=4.39
+VeriNet             -sigmoid, 	 total_images=99, 	 avg=0.00616, 	 std=0.00259, 	 avg_runtime=4.41
+RobustVerifier      -sigmoid, 	 total_images=99, 	 avg=0.00519, 	 std=0.00210, 	 avg_runtime=4.42
 ===========================================
 model name = models/mixed_models/ffnnSIGMOID__Point_6_500.h5
-NeWise              -sigmoid, 	 total_images=95, 	 avg=0.06851, 	 std=0.01859, 	 avg_runtime=154.71
-DeepCert            -sigmoid, 	 total_images=95, 	 avg=0.07781, 	 std=0.02102, 	 avg_runtime=155.04
-VeriNet             -sigmoid, 	 total_images=95, 	 avg=0.07761, 	 std=0.02105, 	 avg_runtime=155.11
-RobustVerifier      -sigmoid, 	 total_images=95, 	 avg=0.06649, 	 std=0.01524, 	 avg_runtime=155.72
+NeWise              -sigmoid, 	 total_images=95, 	 avg=0.06851, 	 std=0.01859, 	 avg_runtime=154.32
+DeepCert            -sigmoid, 	 total_images=95, 	 avg=0.07781, 	 std=0.02102, 	 avg_runtime=154.61
+VeriNet             -sigmoid, 	 total_images=95, 	 avg=0.07761, 	 std=0.02105, 	 avg_runtime=154.79
+RobustVerifier      -sigmoid, 	 total_images=95, 	 avg=0.06648, 	 std=0.01524, 	 avg_runtime=155.42
 ===========================================
 model name = models/mixed_models/mnist_cnn_3layer_2_3.h5
 NeWise              -sigmoid, 	 total_images=96, 	 avg=0.06074, 	 std=0.02186, 	 avg_runtime=0.16
 DeepCert            -sigmoid, 	 total_images=96, 	 avg=0.05789, 	 std=0.02023, 	 avg_runtime=0.21
 VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.05803, 	 std=0.02036, 	 avg_runtime=0.16
-RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05685, 	 std=0.01920, 	 avg_runtime=0.16
+RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05686, 	 std=0.01921, 	 avg_runtime=0.16
 ===========================================
 model name = models/mixed_models/mnist_cnn_3layer_4_3.h5
 NeWise              -sigmoid, 	 total_images=97, 	 avg=0.04776, 	 std=0.01551, 	 avg_runtime=0.27
 DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.04721, 	 std=0.01534, 	 avg_runtime=0.39
 VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.04715, 	 std=0.01529, 	 avg_runtime=0.28
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.04639, 	 std=0.01465, 	 avg_runtime=0.28
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.04639, 	 std=0.01465, 	 avg_runtime=0.27
 ===========================================
 model name = models/mixed_models/mnist_cnn_4layer_5_3_sigmoid
-NeWise              -sigmoid, 	 total_images=97, 	 avg=0.05698, 	 std=0.01572, 	 avg_runtime=1.10
-DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.05394, 	 std=0.01447, 	 avg_runtime=1.36
-VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.05425, 	 std=0.01462, 	 avg_runtime=1.12
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05220, 	 std=0.01317, 	 avg_runtime=1.11
+NeWise              -sigmoid, 	 total_images=97, 	 avg=0.05698, 	 std=0.01572, 	 avg_runtime=1.09
+DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.05394, 	 std=0.01447, 	 avg_runtime=1.37
+VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.05425, 	 std=0.01462, 	 avg_runtime=1.14
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05220, 	 std=0.01316, 	 avg_runtime=1.11
 ===========================================
 model name = models/mixed_models/mnist_cnn_5layer_5_3.h5
-NeWise              -sigmoid, 	 total_images=97, 	 avg=0.05813, 	 std=0.01571, 	 avg_runtime=2.80
-DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.05481, 	 std=0.01422, 	 avg_runtime=3.39
-VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.05503, 	 std=0.01444, 	 avg_runtime=3.05
-RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05125, 	 std=0.01201, 	 avg_runtime=2.82
+NeWise              -sigmoid, 	 total_images=97, 	 avg=0.05813, 	 std=0.01571, 	 avg_runtime=2.76
+DeepCert            -sigmoid, 	 total_images=97, 	 avg=0.05481, 	 std=0.01422, 	 avg_runtime=3.36
+VeriNet             -sigmoid, 	 total_images=97, 	 avg=0.05503, 	 std=0.01444, 	 avg_runtime=3.02
+RobustVerifier      -sigmoid, 	 total_images=97, 	 avg=0.05125, 	 std=0.01201, 	 avg_runtime=2.78
 ===========================================
 model name = models/mixed_models/mnist_cnn_6layer_5_3.h5
-NeWise              -sigmoid, 	 total_images=96, 	 avg=0.06235, 	 std=0.01713, 	 avg_runtime=5.55
-DeepCert            -sigmoid, 	 total_images=96, 	 avg=0.05898, 	 std=0.01529, 	 avg_runtime=6.22
-VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.05882, 	 std=0.01530, 	 avg_runtime=5.69
-RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05409, 	 std=0.01226, 	 avg_runtime=5.64
+NeWise              -sigmoid, 	 total_images=96, 	 avg=0.06235, 	 std=0.01713, 	 avg_runtime=5.54
+DeepCert            -sigmoid, 	 total_images=96, 	 avg=0.05898, 	 std=0.01529, 	 avg_runtime=6.21
+VeriNet             -sigmoid, 	 total_images=96, 	 avg=0.05882, 	 std=0.01530, 	 avg_runtime=5.58
+RobustVerifier      -sigmoid, 	 total_images=96, 	 avg=0.05409, 	 std=0.01226, 	 avg_runtime=5.53
 ===========================================
 model name = models/mixed_models/mnist_cnn_8layer_5_3_sigmoid
-NeWise              -sigmoid, 	 total_images=86, 	 avg=0.11907, 	 std=0.03611, 	 avg_runtime=15.17
-DeepCert            -sigmoid, 	 total_images=86, 	 avg=0.08782, 	 std=0.02480, 	 avg_runtime=16.20
-VeriNet             -sigmoid, 	 total_images=86, 	 avg=0.08819, 	 std=0.02549, 	 avg_runtime=15.15
-RobustVerifier      -sigmoid, 	 total_images=86, 	 avg=0.06853, 	 std=0.01625, 	 avg_runtime=15.04
+NeWise              -sigmoid, 	 total_images=86, 	 avg=0.11907, 	 std=0.03611, 	 avg_runtime=14.90
+DeepCert            -sigmoid, 	 total_images=86, 	 avg=0.08782, 	 std=0.02480, 	 avg_runtime=16.02
+VeriNet             -sigmoid, 	 total_images=86, 	 avg=0.08819, 	 std=0.02549, 	 avg_runtime=15.06
+RobustVerifier      -sigmoid, 	 total_images=86, 	 avg=0.06853, 	 std=0.01625, 	 avg_runtime=14.97
 ===========================================
 model name = models/mixed_models/fashion_mnist_ffnn_3x50.h5
 NeWise              -sigmoid, 	 total_images=87, 	 avg=0.00915, 	 std=0.00346, 	 avg_runtime=0.14
@@ -72,10 +72,10 @@ VeriNet             -sigmoid, 	 total_images=87, 	 avg=0.01020, 	 std=0.00384, 	
 RobustVerifier      -sigmoid, 	 total_images=87, 	 avg=0.00858, 	 std=0.00299, 	 avg_runtime=0.14
 ===========================================
 model name = models/mixed_models/fashion_mnist_ffnn_5x100.h5
-NeWise              -sigmoid, 	 total_images=87, 	 avg=0.00710, 	 std=0.00363, 	 avg_runtime=4.40
-DeepCert            -sigmoid, 	 total_images=87, 	 avg=0.00776, 	 std=0.00398, 	 avg_runtime=4.44
-VeriNet             -sigmoid, 	 total_images=87, 	 avg=0.00789, 	 std=0.00411, 	 avg_runtime=4.40
-RobustVerifier      -sigmoid, 	 total_images=87, 	 avg=0.00656, 	 std=0.00325, 	 avg_runtime=4.40
+NeWise              -sigmoid, 	 total_images=87, 	 avg=0.00710, 	 std=0.00363, 	 avg_runtime=4.39
+DeepCert            -sigmoid, 	 total_images=87, 	 avg=0.00776, 	 std=0.00398, 	 avg_runtime=4.41
+VeriNet             -sigmoid, 	 total_images=87, 	 avg=0.00789, 	 std=0.00411, 	 avg_runtime=4.37
+RobustVerifier      -sigmoid, 	 total_images=87, 	 avg=0.00656, 	 std=0.00326, 	 avg_runtime=4.38
 ===========================================
 model name = models/mixed_models/fashion_mnist_cnn_4layer_5_3.h5
 NeWise              -sigmoid, 	 total_images=84, 	 avg=0.07473, 	 std=0.04127, 	 avg_runtime=1.09
@@ -84,27 +84,27 @@ VeriNet             -sigmoid, 	 total_images=84, 	 avg=0.07200, 	 std=0.03782, 	
 RobustVerifier      -sigmoid, 	 total_images=84, 	 avg=0.06663, 	 std=0.03133, 	 avg_runtime=1.11
 ===========================================
 model name = models/mixed_models/fashion_mnist_cnn_5layer_5_3.h5
-NeWise              -sigmoid, 	 total_images=80, 	 avg=0.07044, 	 std=0.03466, 	 avg_runtime=2.77
-DeepCert            -sigmoid, 	 total_images=80, 	 avg=0.06764, 	 std=0.03179, 	 avg_runtime=3.41
-VeriNet             -sigmoid, 	 total_images=80, 	 avg=0.06764, 	 std=0.03197, 	 avg_runtime=3.05
-RobustVerifier      -sigmoid, 	 total_images=80, 	 avg=0.06049, 	 std=0.02445, 	 avg_runtime=2.80
+NeWise              -sigmoid, 	 total_images=80, 	 avg=0.07044, 	 std=0.03466, 	 avg_runtime=2.76
+DeepCert            -sigmoid, 	 total_images=80, 	 avg=0.06764, 	 std=0.03179, 	 avg_runtime=3.38
+VeriNet             -sigmoid, 	 total_images=80, 	 avg=0.06764, 	 std=0.03197, 	 avg_runtime=3.03
+RobustVerifier      -sigmoid, 	 total_images=80, 	 avg=0.06046, 	 std=0.02444, 	 avg_runtime=2.78
 ===========================================
 model name = models/mixed_models/fashion_mnist_cnn_6layer_5_3.h5
-NeWise              -sigmoid, 	 total_images=76, 	 avg=0.07350, 	 std=0.03684, 	 avg_runtime=5.53
-DeepCert            -sigmoid, 	 total_images=76, 	 avg=0.06949, 	 std=0.03412, 	 avg_runtime=6.38
-VeriNet             -sigmoid, 	 total_images=76, 	 avg=0.06910, 	 std=0.03400, 	 avg_runtime=5.86
-RobustVerifier      -sigmoid, 	 total_images=76, 	 avg=0.06265, 	 std=0.02778, 	 avg_runtime=5.58
+NeWise              -sigmoid, 	 total_images=76, 	 avg=0.07350, 	 std=0.03684, 	 avg_runtime=5.51
+DeepCert            -sigmoid, 	 total_images=76, 	 avg=0.06949, 	 std=0.03412, 	 avg_runtime=6.34
+VeriNet             -sigmoid, 	 total_images=76, 	 avg=0.06910, 	 std=0.03400, 	 avg_runtime=5.82
+RobustVerifier      -sigmoid, 	 total_images=76, 	 avg=0.06265, 	 std=0.02779, 	 avg_runtime=5.55
 ===========================================
 model name = models/mixed_models/cifar10_ffnn_3x50.h5
 NeWise              -sigmoid, 	 total_images=56, 	 avg=0.00406, 	 std=0.00177, 	 avg_runtime=0.43
-DeepCert            -sigmoid, 	 total_images=56, 	 avg=0.00454, 	 std=0.00208, 	 avg_runtime=0.43
+DeepCert            -sigmoid, 	 total_images=56, 	 avg=0.00454, 	 std=0.00208, 	 avg_runtime=0.44
 VeriNet             -sigmoid, 	 total_images=56, 	 avg=0.00452, 	 std=0.00207, 	 avg_runtime=0.43
-RobustVerifier      -sigmoid, 	 total_images=56, 	 avg=0.00415, 	 std=0.00172, 	 avg_runtime=0.43
+RobustVerifier      -sigmoid, 	 total_images=56, 	 avg=0.00415, 	 std=0.00172, 	 avg_runtime=0.44
 ===========================================
 model name = models/mixed_models/cifar10_ffnn_5x100.h5
-NeWise              -sigmoid, 	 total_images=52, 	 avg=0.00329, 	 std=0.00141, 	 avg_runtime=2.43
-DeepCert            -sigmoid, 	 total_images=52, 	 avg=0.00368, 	 std=0.00166, 	 avg_runtime=2.44
-VeriNet             -sigmoid, 	 total_images=52, 	 avg=0.00368, 	 std=0.00165, 	 avg_runtime=2.44
+NeWise              -sigmoid, 	 total_images=52, 	 avg=0.00329, 	 std=0.00141, 	 avg_runtime=2.42
+DeepCert            -sigmoid, 	 total_images=52, 	 avg=0.00368, 	 std=0.00166, 	 avg_runtime=2.43
+VeriNet             -sigmoid, 	 total_images=52, 	 avg=0.00368, 	 std=0.00165, 	 avg_runtime=2.43
 RobustVerifier      -sigmoid, 	 total_images=52, 	 avg=0.00331, 	 std=0.00134, 	 avg_runtime=2.42
 ===========================================
 model name = models/mixed_models/cifar10_cnn_3layer_2_3.h5
@@ -115,6 +115,7 @@ RobustVerifier      -sigmoid, 	 total_images=42, 	 avg=0.03105, 	 std=0.01675, 	
 ===========================================
 model name = models/mixed_models/cifar10_cnn_6layer_5_3.h5
 NeWise              -sigmoid, 	 total_images=35, 	 avg=0.02289, 	 std=0.01581, 	 avg_runtime=10.03
-DeepCert            -sigmoid, 	 total_images=35, 	 avg=0.02240, 	 std=0.01532, 	 avg_runtime=11.01
-VeriNet             -sigmoid, 	 total_images=35, 	 avg=0.02234, 	 std=0.01532, 	 avg_runtime=10.17
-RobustVerifier      -sigmoid, 	 total_images=35, 	 avg=0.02125, 	 std=0.01411, 	 avg_runtime=10.10
+DeepCert            -sigmoid, 	 total_images=35, 	 avg=0.02240, 	 std=0.01532, 	 avg_runtime=11.00
+VeriNet             -sigmoid, 	 total_images=35, 	 avg=0.02234, 	 std=0.01532, 	 avg_runtime=10.18
+RobustVerifier      -sigmoid, 	 total_images=35, 	 avg=0.02124, 	 std=0.01410, 	 avg_runtime=10.10
+generat the log of table 1 finished!!!
