@@ -1,180 +1,181 @@
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_5x100_with_positive_weights_tanh_9573.h5
-NeWise              -tanh, 	 total_images=96, 	 avg=0.00317, 	 std=0.00177, 	 avg_runtime=4.37
-DeepCert            -tanh, 	 total_images=96, 	 avg=0.00068, 	 std=0.00033, 	 avg_runtime=4.38
-VeriNet             -tanh, 	 total_images=96, 	 avg=0.00129, 	 std=0.00060, 	 avg_runtime=4.40
-RobustVerifier      -tanh, 	 total_images=96, 	 avg=0.00103, 	 std=0.00056, 	 avg_runtime=4.38
+NeWise              -tanh, 	 total_images=96, 	 avg=0.00317, 	 std=0.00177, 	 avg_runtime=4.33
+DeepCert            -tanh, 	 total_images=96, 	 avg=0.00116, 	 std=0.00053, 	 avg_runtime=4.40
+VeriNet             -tanh, 	 total_images=96, 	 avg=0.00129, 	 std=0.00060, 	 avg_runtime=4.39
+RobustVerifier      -tanh, 	 total_images=96, 	 avg=0.00103, 	 std=0.00056, 	 avg_runtime=4.30
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_3x700_with_positive_weights_tanh_9624.h5
-NeWise              -tanh, 	 total_images=97, 	 avg=0.00439, 	 std=0.00274, 	 avg_runtime=117.67
-DeepCert            -tanh, 	 total_images=97, 	 avg=0.00113, 	 std=0.00057, 	 avg_runtime=117.82
-VeriNet             -tanh, 	 total_images=97, 	 avg=0.00182, 	 std=0.00094, 	 avg_runtime=117.62
-RobustVerifier      -tanh, 	 total_images=97, 	 avg=0.00160, 	 std=0.00094, 	 avg_runtime=117.69
+NeWise              -tanh, 	 total_images=97, 	 avg=0.00439, 	 std=0.00274, 	 avg_runtime=117.38
+DeepCert            -tanh, 	 total_images=97, 	 avg=0.00162, 	 std=0.00078, 	 avg_runtime=117.29
+VeriNet             -tanh, 	 total_images=97, 	 avg=0.00182, 	 std=0.00094, 	 avg_runtime=117.53
+RobustVerifier      -tanh, 	 total_images=97, 	 avg=0.00160, 	 std=0.00094, 	 avg_runtime=117.51
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_3x400_with_positive_weights_tanh_9648.h5
-NeWise              -tanh, 	 total_images=100, 	 avg=0.00380, 	 std=0.00176, 	 avg_runtime=39.31
-DeepCert            -tanh, 	 total_images=100, 	 avg=0.00118, 	 std=0.00045, 	 avg_runtime=39.37
-VeriNet             -tanh, 	 total_images=100, 	 avg=0.00194, 	 std=0.00077, 	 avg_runtime=39.76
-RobustVerifier      -tanh, 	 total_images=100, 	 avg=0.00165, 	 std=0.00074, 	 avg_runtime=39.47
+NeWise              -tanh, 	 total_images=100, 	 avg=0.00380, 	 std=0.00176, 	 avg_runtime=39.54
+DeepCert            -tanh, 	 total_images=100, 	 avg=0.00173, 	 std=0.00066, 	 avg_runtime=39.53
+VeriNet             -tanh, 	 total_images=100, 	 avg=0.00194, 	 std=0.00077, 	 avg_runtime=39.43
+RobustVerifier      -tanh, 	 total_images=100, 	 avg=0.00165, 	 std=0.00074, 	 avg_runtime=39.31
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_cnn_6layer_5_3_with_positive_weights_tanh_9449.h5
-NeWise              -tanh, 	 total_images=97, 	 avg=0.06012, 	 std=0.02434, 	 avg_runtime=5.62
-DeepCert            -tanh, 	 total_images=97, 	 avg=0.02257, 	 std=0.00659, 	 avg_runtime=6.00
+NeWise              -tanh, 	 total_images=97, 	 avg=0.06012, 	 std=0.02434, 	 avg_runtime=5.60
+DeepCert            -tanh, 	 total_images=97, 	 avg=0.03579, 	 std=0.01149, 	 avg_runtime=6.20
 VeriNet             -tanh, 	 total_images=97, 	 avg=0.03813, 	 std=0.01309, 	 avg_runtime=5.60
-RobustVerifier      -tanh, 	 total_images=97, 	 avg=0.03027, 	 std=0.00872, 	 avg_runtime=5.59
+RobustVerifier      -tanh, 	 total_images=97, 	 avg=0.03027, 	 std=0.00872, 	 avg_runtime=5.57
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_3x50_with_positive_weights_tanh_9546.h5
 NeWise              -tanh, 	 total_images=98, 	 avg=0.00272, 	 std=0.00122, 	 avg_runtime=0.14
-DeepCert            -tanh, 	 total_images=98, 	 avg=0.00182, 	 std=0.00073, 	 avg_runtime=0.14
+DeepCert            -tanh, 	 total_images=98, 	 avg=0.00229, 	 std=0.00094, 	 avg_runtime=0.14
 VeriNet             -tanh, 	 total_images=98, 	 avg=0.00232, 	 std=0.00096, 	 avg_runtime=0.14
 RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.00217, 	 std=0.00084, 	 avg_runtime=0.14
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_3x100_with_positive_weights_tanh_9644.h5
-NeWise              -tanh, 	 total_images=100, 	 avg=0.00334, 	 std=0.00135, 	 avg_runtime=2.13
-DeepCert            -tanh, 	 total_images=100, 	 avg=0.00234, 	 std=0.00086, 	 avg_runtime=2.13
-VeriNet             -tanh, 	 total_images=100, 	 avg=0.00291, 	 std=0.00113, 	 avg_runtime=2.11
-RobustVerifier      -tanh, 	 total_images=100, 	 avg=0.00275, 	 std=0.00101, 	 avg_runtime=2.13
+NeWise              -tanh, 	 total_images=100, 	 avg=0.00334, 	 std=0.00135, 	 avg_runtime=2.18
+DeepCert            -tanh, 	 total_images=100, 	 avg=0.00288, 	 std=0.00109, 	 avg_runtime=2.17
+VeriNet             -tanh, 	 total_images=100, 	 avg=0.00291, 	 std=0.00113, 	 avg_runtime=2.18
+RobustVerifier      -tanh, 	 total_images=100, 	 avg=0.00275, 	 std=0.00101, 	 avg_runtime=2.14
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_ffnn_3x200_with_positive_weights_tanh_9637.h5
-NeWise              -tanh, 	 total_images=98, 	 avg=0.00307, 	 std=0.00134, 	 avg_runtime=10.55
-DeepCert            -tanh, 	 total_images=98, 	 avg=0.00216, 	 std=0.00084, 	 avg_runtime=10.63
-VeriNet             -tanh, 	 total_images=98, 	 avg=0.00269, 	 std=0.00112, 	 avg_runtime=10.50
-RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.00258, 	 std=0.00102, 	 avg_runtime=10.54
+NeWise              -tanh, 	 total_images=98, 	 avg=0.00307, 	 std=0.00134, 	 avg_runtime=8.54
+DeepCert            -tanh, 	 total_images=98, 	 avg=0.00266, 	 std=0.00106, 	 avg_runtime=7.24
+VeriNet             -tanh, 	 total_images=98, 	 avg=0.00269, 	 std=0.00112, 	 avg_runtime=7.18
+RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.00258, 	 std=0.00102, 	 avg_runtime=7.18
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_cnn_3layer_4_3_with_positive_weights_tanh_9612.h5
 NeWise              -tanh, 	 total_images=98, 	 avg=0.02344, 	 std=0.00667, 	 avg_runtime=0.28
-DeepCert            -tanh, 	 total_images=98, 	 avg=0.01693, 	 std=0.00405, 	 avg_runtime=0.39
+DeepCert            -tanh, 	 total_images=98, 	 avg=0.02084, 	 std=0.00551, 	 avg_runtime=0.42
 VeriNet             -tanh, 	 total_images=98, 	 avg=0.02132, 	 std=0.00581, 	 avg_runtime=0.32
 RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.02089, 	 std=0.00552, 	 avg_runtime=0.29
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_cnn_5layer_5_3_with_positive_weights_tanh_9457.h5
-NeWise              -tanh, 	 total_images=96, 	 avg=0.03287, 	 std=0.01081, 	 avg_runtime=2.78
-DeepCert            -tanh, 	 total_images=96, 	 avg=0.02460, 	 std=0.00690, 	 avg_runtime=3.09
+NeWise              -tanh, 	 total_images=96, 	 avg=0.03287, 	 std=0.01081, 	 avg_runtime=2.79
+DeepCert            -tanh, 	 total_images=96, 	 avg=0.02937, 	 std=0.00899, 	 avg_runtime=3.22
 VeriNet             -tanh, 	 total_images=96, 	 avg=0.02963, 	 std=0.00920, 	 avg_runtime=2.81
-RobustVerifier      -tanh, 	 total_images=96, 	 avg=0.02898, 	 std=0.00868, 	 avg_runtime=2.81
+RobustVerifier      -tanh, 	 total_images=96, 	 avg=0.02898, 	 std=0.00868, 	 avg_runtime=2.82
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_cnn_4layer_5_3_with_positive_weights_tanh_9655.h5
 NeWise              -tanh, 	 total_images=98, 	 avg=0.02723, 	 std=0.00743, 	 avg_runtime=1.11
-DeepCert            -tanh, 	 total_images=98, 	 avg=0.02091, 	 std=0.00496, 	 avg_runtime=1.31
+DeepCert            -tanh, 	 total_images=98, 	 avg=0.02408, 	 std=0.00613, 	 avg_runtime=1.38
 VeriNet             -tanh, 	 total_images=98, 	 avg=0.02442, 	 std=0.00634, 	 avg_runtime=1.13
 RobustVerifier      -tanh, 	 total_images=98, 	 avg=0.02388, 	 std=0.00601, 	 avg_runtime=1.13
 ===========================================
 model name = models/models_with_positive_weights/tanh/mnist_cnn_3layer_2_3_with_positive_weights_tanh_9530.h5
 NeWise              -tanh, 	 total_images=96, 	 avg=0.03268, 	 std=0.01002, 	 avg_runtime=0.16
-DeepCert            -tanh, 	 total_images=96, 	 avg=0.02544, 	 std=0.00673, 	 avg_runtime=0.20
+DeepCert            -tanh, 	 total_images=96, 	 avg=0.02890, 	 std=0.00822, 	 avg_runtime=0.22
 VeriNet             -tanh, 	 total_images=96, 	 avg=0.02935, 	 std=0.00854, 	 avg_runtime=0.16
 RobustVerifier      -tanh, 	 total_images=96, 	 avg=0.02876, 	 std=0.00814, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_ffnn_3x100_with_positive_weights_tanh.h5
-NeWise              -tanh, 	 total_images=86, 	 avg=0.01532, 	 std=0.01561, 	 avg_runtime=2.09
-DeepCert            -tanh, 	 total_images=86, 	 avg=0.00848, 	 std=0.00765, 	 avg_runtime=2.14
-VeriNet             -tanh, 	 total_images=86, 	 avg=0.01172, 	 std=0.01099, 	 avg_runtime=2.14
-RobustVerifier      -tanh, 	 total_images=86, 	 avg=0.01035, 	 std=0.00914, 	 avg_runtime=2.12
+NeWise              -tanh, 	 total_images=86, 	 avg=0.01532, 	 std=0.01561, 	 avg_runtime=2.21
+DeepCert            -tanh, 	 total_images=86, 	 avg=0.01140, 	 std=0.01049, 	 avg_runtime=2.19
+VeriNet             -tanh, 	 total_images=86, 	 avg=0.01172, 	 std=0.01099, 	 avg_runtime=2.21
+RobustVerifier      -tanh, 	 total_images=86, 	 avg=0.01035, 	 std=0.00914, 	 avg_runtime=2.20
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_ffnn_2x200_with_positive_weights_tanh.h5
-NeWise              -tanh, 	 total_images=87, 	 avg=0.00992, 	 std=0.01019, 	 avg_runtime=5.45
-DeepCert            -tanh, 	 total_images=87, 	 avg=0.00650, 	 std=0.00576, 	 avg_runtime=5.40
-VeriNet             -tanh, 	 total_images=87, 	 avg=0.00832, 	 std=0.00802, 	 avg_runtime=5.46
-RobustVerifier      -tanh, 	 total_images=87, 	 avg=0.00790, 	 std=0.00763, 	 avg_runtime=5.44
+NeWise              -tanh, 	 total_images=87, 	 avg=0.00992, 	 std=0.01019, 	 avg_runtime=5.41
+DeepCert            -tanh, 	 total_images=87, 	 avg=0.00817, 	 std=0.00764, 	 avg_runtime=5.45
+VeriNet             -tanh, 	 total_images=87, 	 avg=0.00832, 	 std=0.00802, 	 avg_runtime=5.41
+RobustVerifier      -tanh, 	 total_images=87, 	 avg=0.00790, 	 std=0.00763, 	 avg_runtime=5.40
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_cnn_6layer_5_3_with_positive_weights_tanh.h5
 NeWise              -tanh, 	 total_images=77, 	 avg=0.04082, 	 std=0.03286, 	 avg_runtime=5.54
-DeepCert            -tanh, 	 total_images=77, 	 avg=0.02692, 	 std=0.01798, 	 avg_runtime=6.09
-VeriNet             -tanh, 	 total_images=77, 	 avg=0.03425, 	 std=0.02422, 	 avg_runtime=5.75
-RobustVerifier      -tanh, 	 total_images=77, 	 avg=0.02965, 	 std=0.01799, 	 avg_runtime=5.57
+DeepCert            -tanh, 	 total_images=77, 	 avg=0.03336, 	 std=0.02367, 	 avg_runtime=6.30
+VeriNet             -tanh, 	 total_images=77, 	 avg=0.03425, 	 std=0.02422, 	 avg_runtime=5.76
+RobustVerifier      -tanh, 	 total_images=77, 	 avg=0.02965, 	 std=0.01799, 	 avg_runtime=5.58
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_ffnn_2x100_with_positive_weights_tanh.h5
 NeWise              -tanh, 	 total_images=88, 	 avg=0.01076, 	 std=0.01093, 	 avg_runtime=1.11
-DeepCert            -tanh, 	 total_images=88, 	 avg=0.00721, 	 std=0.00602, 	 avg_runtime=1.11
+DeepCert            -tanh, 	 total_images=88, 	 avg=0.00899, 	 std=0.00808, 	 avg_runtime=1.11
 VeriNet             -tanh, 	 total_images=88, 	 avg=0.00915, 	 std=0.00850, 	 avg_runtime=1.12
-RobustVerifier      -tanh, 	 total_images=88, 	 avg=0.00855, 	 std=0.00770, 	 avg_runtime=1.11
+RobustVerifier      -tanh, 	 total_images=88, 	 avg=0.00855, 	 std=0.00770, 	 avg_runtime=1.12
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_cnn_5layer_5_3_with_positive_weights_tanh.h5
 NeWise              -tanh, 	 total_images=84, 	 avg=0.03047, 	 std=0.02007, 	 avg_runtime=2.78
-DeepCert            -tanh, 	 total_images=84, 	 avg=0.02054, 	 std=0.01168, 	 avg_runtime=3.11
-VeriNet             -tanh, 	 total_images=84, 	 avg=0.02637, 	 std=0.01580, 	 avg_runtime=2.85
+DeepCert            -tanh, 	 total_images=84, 	 avg=0.02563, 	 std=0.01526, 	 avg_runtime=3.26
+VeriNet             -tanh, 	 total_images=84, 	 avg=0.02637, 	 std=0.01580, 	 avg_runtime=2.84
 RobustVerifier      -tanh, 	 total_images=84, 	 avg=0.02394, 	 std=0.01249, 	 avg_runtime=2.81
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_cnn_4layer_5_3_with_positive_weights_tanh.h5
-NeWise              -tanh, 	 total_images=84, 	 avg=0.02763, 	 std=0.01884, 	 avg_runtime=1.11
-DeepCert            -tanh, 	 total_images=84, 	 avg=0.01898, 	 std=0.00966, 	 avg_runtime=1.35
+NeWise              -tanh, 	 total_images=84, 	 avg=0.02763, 	 std=0.01884, 	 avg_runtime=1.12
+DeepCert            -tanh, 	 total_images=84, 	 avg=0.02301, 	 std=0.01335, 	 avg_runtime=1.44
 VeriNet             -tanh, 	 total_images=84, 	 avg=0.02398, 	 std=0.01387, 	 avg_runtime=1.18
-RobustVerifier      -tanh, 	 total_images=84, 	 avg=0.02227, 	 std=0.01292, 	 avg_runtime=1.13
+RobustVerifier      -tanh, 	 total_images=84, 	 avg=0.02227, 	 std=0.01292, 	 avg_runtime=1.14
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_cnn_3layer_2_3_with_positive_weights_tanh.h5
 NeWise              -tanh, 	 total_images=86, 	 avg=0.02705, 	 std=0.01114, 	 avg_runtime=0.16
-DeepCert            -tanh, 	 total_images=86, 	 avg=0.01883, 	 std=0.00675, 	 avg_runtime=0.20
+DeepCert            -tanh, 	 total_images=86, 	 avg=0.02335, 	 std=0.00867, 	 avg_runtime=0.22
 VeriNet             -tanh, 	 total_images=86, 	 avg=0.02422, 	 std=0.00910, 	 avg_runtime=0.17
 RobustVerifier      -tanh, 	 total_images=86, 	 avg=0.02343, 	 std=0.00848, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_cnn_3layer_4_3_with_positive_weights_tanh.h5
 NeWise              -tanh, 	 total_images=88, 	 avg=0.03018, 	 std=0.01600, 	 avg_runtime=0.28
-DeepCert            -tanh, 	 total_images=88, 	 avg=0.02157, 	 std=0.01059, 	 avg_runtime=0.36
+DeepCert            -tanh, 	 total_images=88, 	 avg=0.02643, 	 std=0.01257, 	 avg_runtime=0.40
 VeriNet             -tanh, 	 total_images=88, 	 avg=0.02711, 	 std=0.01297, 	 avg_runtime=0.29
 RobustVerifier      -tanh, 	 total_images=88, 	 avg=0.02627, 	 std=0.01208, 	 avg_runtime=0.28
 ===========================================
 model name = models/models_with_positive_weights/tanh/fashion_mnist_ffnn_3x200_with_positive_weights_tanh.h5
-NeWise              -tanh, 	 total_images=72, 	 avg=0.05295, 	 std=0.06615, 	 avg_runtime=7.23
-DeepCert            -tanh, 	 total_images=72, 	 avg=0.03894, 	 std=0.05357, 	 avg_runtime=7.23
-VeriNet             -tanh, 	 total_images=72, 	 avg=0.04404, 	 std=0.05633, 	 avg_runtime=7.22
-RobustVerifier      -tanh, 	 total_images=72, 	 avg=0.03537, 	 std=0.04541, 	 avg_runtime=7.21
+NeWise              -tanh, 	 total_images=72, 	 avg=0.05295, 	 std=0.06615, 	 avg_runtime=10.72
+DeepCert            -tanh, 	 total_images=72, 	 avg=0.04299, 	 std=0.05499, 	 avg_runtime=10.77
+VeriNet             -tanh, 	 total_images=72, 	 avg=0.04404, 	 std=0.05633, 	 avg_runtime=10.80
+RobustVerifier      -tanh, 	 total_images=72, 	 avg=0.03537, 	 std=0.04541, 	 avg_runtime=10.78
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_3x200_with_positive_weights_tanh_3581.h5
-NeWise              -tanh, 	 total_images=32, 	 avg=0.02264, 	 std=0.01764, 	 avg_runtime=4.29
-DeepCert            -tanh, 	 total_images=32, 	 avg=0.00793, 	 std=0.00475, 	 avg_runtime=4.29
-VeriNet             -tanh, 	 total_images=32, 	 avg=0.01365, 	 std=0.00924, 	 avg_runtime=4.29
-RobustVerifier      -tanh, 	 total_images=32, 	 avg=0.01199, 	 std=0.00804, 	 avg_runtime=4.29
+NeWise              -tanh, 	 total_images=32, 	 avg=0.02264, 	 std=0.01764, 	 avg_runtime=6.32
+DeepCert            -tanh, 	 total_images=32, 	 avg=0.01267, 	 std=0.00827, 	 avg_runtime=6.33
+VeriNet             -tanh, 	 total_images=32, 	 avg=0.01365, 	 std=0.00924, 	 avg_runtime=6.32
+RobustVerifier      -tanh, 	 total_images=32, 	 avg=0.01199, 	 std=0.00804, 	 avg_runtime=5.19
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_4x100_with_positive_weights_tanh_3114.h5
 NeWise              -tanh, 	 total_images=29, 	 avg=0.01984, 	 std=0.01465, 	 avg_runtime=1.84
-DeepCert            -tanh, 	 total_images=29, 	 avg=0.00712, 	 std=0.00776, 	 avg_runtime=1.85
-VeriNet             -tanh, 	 total_images=29, 	 avg=0.01055, 	 std=0.01006, 	 avg_runtime=1.83
-RobustVerifier      -tanh, 	 total_images=29, 	 avg=0.00906, 	 std=0.00969, 	 avg_runtime=1.83
+DeepCert            -tanh, 	 total_images=29, 	 avg=0.00939, 	 std=0.00815, 	 avg_runtime=1.84
+VeriNet             -tanh, 	 total_images=29, 	 avg=0.01055, 	 std=0.01006, 	 avg_runtime=1.84
+RobustVerifier      -tanh, 	 total_images=29, 	 avg=0.00906, 	 std=0.00969, 	 avg_runtime=1.84
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_3x700_with_positive_weights_tanh_2906.h5
-NeWise              -tanh, 	 total_images=27, 	 avg=0.06880, 	 std=0.05124, 	 avg_runtime=103.82
-DeepCert            -tanh, 	 total_images=27, 	 avg=0.02866, 	 std=0.03632, 	 avg_runtime=104.98
-VeriNet             -tanh, 	 total_images=27, 	 avg=0.03907, 	 std=0.03863, 	 avg_runtime=104.60
-RobustVerifier      -tanh, 	 total_images=27, 	 avg=0.03845, 	 std=0.04056, 	 avg_runtime=103.95
+NeWise              -tanh, 	 total_images=27, 	 avg=0.06880, 	 std=0.05124, 	 avg_runtime=103.02
+DeepCert            -tanh, 	 total_images=27, 	 avg=0.03638, 	 std=0.03768, 	 avg_runtime=103.05
+VeriNet             -tanh, 	 total_images=27, 	 avg=0.03907, 	 std=0.03863, 	 avg_runtime=103.12
+RobustVerifier      -tanh, 	 total_images=27, 	 avg=0.03845, 	 std=0.04056, 	 avg_runtime=103.12
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_3x400_with_positive_weights_tanh_2988.h5
-NeWise              -tanh, 	 total_images=34, 	 avg=0.04844, 	 std=0.04411, 	 avg_runtime=35.91
-DeepCert            -tanh, 	 total_images=34, 	 avg=0.02113, 	 std=0.02332, 	 avg_runtime=35.82
-VeriNet             -tanh, 	 total_images=34, 	 avg=0.02951, 	 std=0.02910, 	 avg_runtime=36.03
-RobustVerifier      -tanh, 	 total_images=34, 	 avg=0.02565, 	 std=0.02525, 	 avg_runtime=36.03
+NeWise              -tanh, 	 total_images=34, 	 avg=0.04844, 	 std=0.04411, 	 avg_runtime=35.77
+DeepCert            -tanh, 	 total_images=34, 	 avg=0.02563, 	 std=0.02455, 	 avg_runtime=35.84
+VeriNet             -tanh, 	 total_images=34, 	 avg=0.02951, 	 std=0.02910, 	 avg_runtime=35.78
+RobustVerifier      -tanh, 	 total_images=34, 	 avg=0.02565, 	 std=0.02525, 	 avg_runtime=35.76
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_3x100_with_positive_weights_tanh_3281.h5
-NeWise              -tanh, 	 total_images=36, 	 avg=0.04290, 	 std=0.04350, 	 avg_runtime=1.25
-DeepCert            -tanh, 	 total_images=36, 	 avg=0.02079, 	 std=0.02268, 	 avg_runtime=1.26
+NeWise              -tanh, 	 total_images=36, 	 avg=0.04290, 	 std=0.04350, 	 avg_runtime=1.26
+DeepCert            -tanh, 	 total_images=36, 	 avg=0.02726, 	 std=0.02433, 	 avg_runtime=1.26
 VeriNet             -tanh, 	 total_images=36, 	 avg=0.02952, 	 std=0.02696, 	 avg_runtime=1.26
-RobustVerifier      -tanh, 	 total_images=36, 	 avg=0.02691, 	 std=0.02564, 	 avg_runtime=1.25
+RobustVerifier      -tanh, 	 total_images=36, 	 avg=0.02691, 	 std=0.02564, 	 avg_runtime=1.26
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_5x100_with_positive_weights_tanh_2823.h5
-NeWise              -tanh, 	 total_images=30, 	 avg=0.04619, 	 std=0.04001, 	 avg_runtime=2.43
-DeepCert            -tanh, 	 total_images=30, 	 avg=0.02721, 	 std=0.03710, 	 avg_runtime=2.51
-VeriNet             -tanh, 	 total_images=30, 	 avg=0.03154, 	 std=0.03776, 	 avg_runtime=2.46
-RobustVerifier      -tanh, 	 total_images=30, 	 avg=0.02997, 	 std=0.03779, 	 avg_runtime=2.45
+NeWise              -tanh, 	 total_images=30, 	 avg=0.04619, 	 std=0.04001, 	 avg_runtime=2.42
+DeepCert            -tanh, 	 total_images=30, 	 avg=0.02987, 	 std=0.03719, 	 avg_runtime=2.44
+VeriNet             -tanh, 	 total_images=30, 	 avg=0.03154, 	 std=0.03776, 	 avg_runtime=2.43
+RobustVerifier      -tanh, 	 total_images=30, 	 avg=0.02997, 	 std=0.03779, 	 avg_runtime=2.42
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_ffnn_3x50_with_positive_weights_tanh_38.h5
 NeWise              -tanh, 	 total_images=36, 	 avg=0.01704, 	 std=0.01113, 	 avg_runtime=0.43
-DeepCert            -tanh, 	 total_images=36, 	 avg=0.01018, 	 std=0.00484, 	 avg_runtime=0.43
+DeepCert            -tanh, 	 total_images=36, 	 avg=0.01353, 	 std=0.00725, 	 avg_runtime=0.43
 VeriNet             -tanh, 	 total_images=36, 	 avg=0.01382, 	 std=0.00769, 	 avg_runtime=0.43
 RobustVerifier      -tanh, 	 total_images=36, 	 avg=0.01339, 	 std=0.00712, 	 avg_runtime=0.43
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_cnn_3layer_2_3_with_positive_weights_tanh_3853.h5
 NeWise              -tanh, 	 total_images=40, 	 avg=0.01363, 	 std=0.01064, 	 avg_runtime=0.29
-DeepCert            -tanh, 	 total_images=40, 	 avg=0.01296, 	 std=0.00942, 	 avg_runtime=0.34
+DeepCert            -tanh, 	 total_images=40, 	 avg=0.01343, 	 std=0.01023, 	 avg_runtime=0.37
 VeriNet             -tanh, 	 total_images=40, 	 avg=0.01343, 	 std=0.01023, 	 avg_runtime=0.29
 RobustVerifier      -tanh, 	 total_images=40, 	 avg=0.01342, 	 std=0.01021, 	 avg_runtime=0.29
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_cnn_3layer_4_3_with_positive_weights_tanh_4031.h5
 NeWise              -tanh, 	 total_images=44, 	 avg=0.01016, 	 std=0.00623, 	 avg_runtime=0.54
-DeepCert            -tanh, 	 total_images=44, 	 avg=0.00982, 	 std=0.00582, 	 avg_runtime=0.65
+DeepCert            -tanh, 	 total_images=44, 	 avg=0.01007, 	 std=0.00612, 	 avg_runtime=0.71
 VeriNet             -tanh, 	 total_images=44, 	 avg=0.01006, 	 std=0.00612, 	 avg_runtime=0.55
 RobustVerifier      -tanh, 	 total_images=44, 	 avg=0.01006, 	 std=0.00611, 	 avg_runtime=0.55
 ===========================================
 model name = models/models_with_positive_weights/tanh/cifar10_cnn_3layer_5_3_with_positive_weights_tanh_4159.h5
 NeWise              -tanh, 	 total_images=46, 	 avg=0.00939, 	 std=0.00658, 	 avg_runtime=0.69
-DeepCert            -tanh, 	 total_images=46, 	 avg=0.00909, 	 std=0.00618, 	 avg_runtime=0.83
+DeepCert            -tanh, 	 total_images=46, 	 avg=0.00930, 	 std=0.00646, 	 avg_runtime=0.90
 VeriNet             -tanh, 	 total_images=46, 	 avg=0.00930, 	 std=0.00646, 	 avg_runtime=0.70
 RobustVerifier      -tanh, 	 total_images=46, 	 avg=0.00930, 	 std=0.00645, 	 avg_runtime=0.70
+generat the log of table 7 finished!!!
