@@ -1,192 +1,193 @@
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_cnn_6layer_5_3_with_positive_weights_atan_9389.h5
-NeWise              -atan, 	 total_images=95, 	 avg=0.04843, 	 std=0.01892, 	 avg_runtime=5.56
-DeepCert            -atan, 	 total_images=95, 	 avg=0.02269, 	 std=0.00610, 	 avg_runtime=5.91
+NeWise              -atan, 	 total_images=95, 	 avg=0.04843, 	 std=0.01892, 	 avg_runtime=5.57
+DeepCert            -atan, 	 total_images=95, 	 avg=0.02621, 	 std=0.00720, 	 avg_runtime=5.62
 VeriNet             -atan, 	 total_images=95, 	 avg=0.03666, 	 std=0.01243, 	 avg_runtime=5.54
-RobustVerifier      -atan, 	 total_images=95, 	 avg=0.03247, 	 std=0.00982, 	 avg_runtime=5.54
+RobustVerifier      -atan, 	 total_images=95, 	 avg=0.03247, 	 std=0.00982, 	 avg_runtime=5.53
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_5x100_with_positive_weights_atan_9233.h5
-NeWise              -atan, 	 total_images=93, 	 avg=0.00201, 	 std=0.00122, 	 avg_runtime=4.43
-DeepCert            -atan, 	 total_images=93, 	 avg=0.00101, 	 std=0.00045, 	 avg_runtime=4.41
-VeriNet             -atan, 	 total_images=93, 	 avg=0.00155, 	 std=0.00082, 	 avg_runtime=4.46
-RobustVerifier      -atan, 	 total_images=93, 	 avg=0.00142, 	 std=0.00073, 	 avg_runtime=4.50
+NeWise              -atan, 	 total_images=93, 	 avg=0.00201, 	 std=0.00122, 	 avg_runtime=4.37
+DeepCert            -atan, 	 total_images=93, 	 avg=0.00116, 	 std=0.00050, 	 avg_runtime=4.36
+VeriNet             -atan, 	 total_images=93, 	 avg=0.00155, 	 std=0.00082, 	 avg_runtime=4.34
+RobustVerifier      -atan, 	 total_images=93, 	 avg=0.00142, 	 std=0.00073, 	 avg_runtime=4.36
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_3x700_with_positive_weights_atan_9650.h5
-NeWise              -atan, 	 total_images=97, 	 avg=0.00225, 	 std=0.00117, 	 avg_runtime=117.46
-DeepCert            -atan, 	 total_images=97, 	 avg=0.00132, 	 std=0.00059, 	 avg_runtime=117.98
-VeriNet             -atan, 	 total_images=97, 	 avg=0.00187, 	 std=0.00091, 	 avg_runtime=117.30
-RobustVerifier      -atan, 	 total_images=97, 	 avg=0.00174, 	 std=0.00082, 	 avg_runtime=117.27
+NeWise              -atan, 	 total_images=97, 	 avg=0.00225, 	 std=0.00117, 	 avg_runtime=117.65
+DeepCert            -atan, 	 total_images=97, 	 avg=0.00153, 	 std=0.00074, 	 avg_runtime=117.45
+VeriNet             -atan, 	 total_images=97, 	 avg=0.00187, 	 std=0.00091, 	 avg_runtime=117.85
+RobustVerifier      -atan, 	 total_images=97, 	 avg=0.00174, 	 std=0.00082, 	 avg_runtime=117.82
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_3x50_with_positive_weights_atan_9327.h5
 NeWise              -atan, 	 total_images=97, 	 avg=0.00509, 	 std=0.00263, 	 avg_runtime=0.14
-DeepCert            -atan, 	 total_images=97, 	 avg=0.00321, 	 std=0.00138, 	 avg_runtime=0.14
+DeepCert            -atan, 	 total_images=97, 	 avg=0.00372, 	 std=0.00174, 	 avg_runtime=0.14
 VeriNet             -atan, 	 total_images=97, 	 avg=0.00431, 	 std=0.00198, 	 avg_runtime=0.14
 RobustVerifier      -atan, 	 total_images=97, 	 avg=0.00402, 	 std=0.00172, 	 avg_runtime=0.14
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_3x400_with_positive_weights_atan_9706.h5
-NeWise              -atan, 	 total_images=98, 	 avg=0.00236, 	 std=0.00110, 	 avg_runtime=39.49
-DeepCert            -atan, 	 total_images=98, 	 avg=0.00149, 	 std=0.00057, 	 avg_runtime=39.59
-VeriNet             -atan, 	 total_images=98, 	 avg=0.00201, 	 std=0.00087, 	 avg_runtime=39.47
-RobustVerifier      -atan, 	 total_images=98, 	 avg=0.00190, 	 std=0.00080, 	 avg_runtime=39.42
+NeWise              -atan, 	 total_images=98, 	 avg=0.00236, 	 std=0.00110, 	 avg_runtime=39.58
+DeepCert            -atan, 	 total_images=98, 	 avg=0.00169, 	 std=0.00068, 	 avg_runtime=39.72
+VeriNet             -atan, 	 total_images=98, 	 avg=0.00201, 	 std=0.00087, 	 avg_runtime=39.59
+RobustVerifier      -atan, 	 total_images=98, 	 avg=0.00190, 	 std=0.00080, 	 avg_runtime=39.48
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_3x200_with_positive_weights_atan_9700.h5
-NeWise              -atan, 	 total_images=98, 	 avg=0.00282, 	 std=0.00123, 	 avg_runtime=10.62
-DeepCert            -atan, 	 total_images=98, 	 avg=0.00181, 	 std=0.00063, 	 avg_runtime=10.60
-VeriNet             -atan, 	 total_images=98, 	 avg=0.00242, 	 std=0.00096, 	 avg_runtime=10.65
-RobustVerifier      -atan, 	 total_images=98, 	 avg=0.00231, 	 std=0.00087, 	 avg_runtime=10.77
+NeWise              -atan, 	 total_images=98, 	 avg=0.00282, 	 std=0.00123, 	 avg_runtime=10.67
+DeepCert            -atan, 	 total_images=98, 	 avg=0.00207, 	 std=0.00082, 	 avg_runtime=10.64
+VeriNet             -atan, 	 total_images=98, 	 avg=0.00242, 	 std=0.00096, 	 avg_runtime=10.72
+RobustVerifier      -atan, 	 total_images=98, 	 avg=0.00231, 	 std=0.00087, 	 avg_runtime=10.69
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_ffnn_3x100_with_positive_weights_atan_9662.h5
-NeWise              -atan, 	 total_images=97, 	 avg=0.00308, 	 std=0.00125, 	 avg_runtime=2.23
-DeepCert            -atan, 	 total_images=97, 	 avg=0.00204, 	 std=0.00071, 	 avg_runtime=2.22
-VeriNet             -atan, 	 total_images=97, 	 avg=0.00268, 	 std=0.00102, 	 avg_runtime=2.22
-RobustVerifier      -atan, 	 total_images=97, 	 avg=0.00257, 	 std=0.00095, 	 avg_runtime=2.21
+NeWise              -atan, 	 total_images=97, 	 avg=0.00308, 	 std=0.00125, 	 avg_runtime=2.24
+DeepCert            -atan, 	 total_images=97, 	 avg=0.00232, 	 std=0.00088, 	 avg_runtime=2.20
+VeriNet             -atan, 	 total_images=97, 	 avg=0.00268, 	 std=0.00102, 	 avg_runtime=2.21
+RobustVerifier      -atan, 	 total_images=97, 	 avg=0.00257, 	 std=0.00095, 	 avg_runtime=2.19
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_cnn_5layer_5_3_with_positive_weights_atan_9575.h5
-NeWise              -atan, 	 total_images=98, 	 avg=0.02180, 	 std=0.00695, 	 avg_runtime=2.75
-DeepCert            -atan, 	 total_images=98, 	 avg=0.01536, 	 std=0.00393, 	 avg_runtime=3.04
-VeriNet             -atan, 	 total_images=98, 	 avg=0.01960, 	 std=0.00585, 	 avg_runtime=2.77
-RobustVerifier      -atan, 	 total_images=98, 	 avg=0.01912, 	 std=0.00549, 	 avg_runtime=2.77
+NeWise              -atan, 	 total_images=98, 	 avg=0.02180, 	 std=0.00695, 	 avg_runtime=2.76
+DeepCert            -atan, 	 total_images=98, 	 avg=0.01624, 	 std=0.00428, 	 avg_runtime=2.84
+VeriNet             -atan, 	 total_images=98, 	 avg=0.01960, 	 std=0.00585, 	 avg_runtime=2.78
+RobustVerifier      -atan, 	 total_images=98, 	 avg=0.01912, 	 std=0.00549, 	 avg_runtime=2.78
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_cnn_3layer_2_3_with_positive_weights_atan_9499.h5
 NeWise              -atan, 	 total_images=97, 	 avg=0.01383, 	 std=0.00422, 	 avg_runtime=0.16
-DeepCert            -atan, 	 total_images=97, 	 avg=0.00995, 	 std=0.00257, 	 avg_runtime=0.20
+DeepCert            -atan, 	 total_images=97, 	 avg=0.01027, 	 std=0.00269, 	 avg_runtime=0.17
 VeriNet             -atan, 	 total_images=97, 	 avg=0.01270, 	 std=0.00374, 	 avg_runtime=0.16
 RobustVerifier      -atan, 	 total_images=97, 	 avg=0.01245, 	 std=0.00358, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_cnn_4layer_5_3_with_positive_weights_atan_9678.h5
 NeWise              -atan, 	 total_images=99, 	 avg=0.02025, 	 std=0.00684, 	 avg_runtime=1.09
-DeepCert            -atan, 	 total_images=99, 	 avg=0.01507, 	 std=0.00421, 	 avg_runtime=1.28
+DeepCert            -atan, 	 total_images=99, 	 avg=0.01581, 	 std=0.00450, 	 avg_runtime=1.15
 VeriNet             -atan, 	 total_images=99, 	 avg=0.01857, 	 std=0.00594, 	 avg_runtime=1.11
-RobustVerifier      -atan, 	 total_images=99, 	 avg=0.01821, 	 std=0.00566, 	 avg_runtime=1.11
+RobustVerifier      -atan, 	 total_images=99, 	 avg=0.01821, 	 std=0.00566, 	 avg_runtime=1.12
 ===========================================
 model name = models/models_with_positive_weights/arctan/mnist_cnn_3layer_4_3_with_positive_weights_atan_9481.h5
 NeWise              -atan, 	 total_images=97, 	 avg=0.01620, 	 std=0.00525, 	 avg_runtime=0.27
-DeepCert            -atan, 	 total_images=97, 	 avg=0.01271, 	 std=0.00358, 	 avg_runtime=0.35
+DeepCert            -atan, 	 total_images=97, 	 avg=0.01299, 	 std=0.00369, 	 avg_runtime=0.30
 VeriNet             -atan, 	 total_images=97, 	 avg=0.01521, 	 std=0.00478, 	 avg_runtime=0.28
 RobustVerifier      -atan, 	 total_images=97, 	 avg=0.01506, 	 std=0.00466, 	 avg_runtime=0.28
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_ffnn_4x100_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=84, 	 avg=0.01789, 	 std=0.02787, 	 avg_runtime=3.32
-DeepCert            -atan, 	 total_images=84, 	 avg=0.00656, 	 std=0.00928, 	 avg_runtime=3.34
-VeriNet             -atan, 	 total_images=84, 	 avg=0.01076, 	 std=0.01504, 	 avg_runtime=3.33
-RobustVerifier      -atan, 	 total_images=84, 	 avg=0.00918, 	 std=0.01342, 	 avg_runtime=3.33
+NeWise              -atan, 	 total_images=84, 	 avg=0.01789, 	 std=0.02787, 	 avg_runtime=3.19
+DeepCert            -atan, 	 total_images=84, 	 avg=0.00840, 	 std=0.01180, 	 avg_runtime=3.19
+VeriNet             -atan, 	 total_images=84, 	 avg=0.01076, 	 std=0.01504, 	 avg_runtime=3.20
+RobustVerifier      -atan, 	 total_images=84, 	 avg=0.00918, 	 std=0.01342, 	 avg_runtime=3.22
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_ffnn_3x100_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=86, 	 avg=0.01198, 	 std=0.01266, 	 avg_runtime=2.21
-DeepCert            -atan, 	 total_images=86, 	 avg=0.00621, 	 std=0.00565, 	 avg_runtime=2.22
-VeriNet             -atan, 	 total_images=86, 	 avg=0.00914, 	 std=0.00889, 	 avg_runtime=2.21
-RobustVerifier      -atan, 	 total_images=86, 	 avg=0.00814, 	 std=0.00776, 	 avg_runtime=2.23
+NeWise              -atan, 	 total_images=86, 	 avg=0.01198, 	 std=0.01266, 	 avg_runtime=2.14
+DeepCert            -atan, 	 total_images=86, 	 avg=0.00778, 	 std=0.00759, 	 avg_runtime=2.13
+VeriNet             -atan, 	 total_images=86, 	 avg=0.00914, 	 std=0.00889, 	 avg_runtime=2.14
+RobustVerifier      -atan, 	 total_images=86, 	 avg=0.00814, 	 std=0.00776, 	 avg_runtime=2.13
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_ffnn_3x200_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=88, 	 avg=0.00965, 	 std=0.01067, 	 avg_runtime=10.77
-DeepCert            -atan, 	 total_images=88, 	 avg=0.00526, 	 std=0.00516, 	 avg_runtime=10.90
-VeriNet             -atan, 	 total_images=88, 	 avg=0.00769, 	 std=0.00809, 	 avg_runtime=10.84
-RobustVerifier      -atan, 	 total_images=88, 	 avg=0.00707, 	 std=0.00700, 	 avg_runtime=10.80
+NeWise              -atan, 	 total_images=88, 	 avg=0.00965, 	 std=0.01067, 	 avg_runtime=10.79
+DeepCert            -atan, 	 total_images=88, 	 avg=0.00667, 	 std=0.00734, 	 avg_runtime=10.58
+VeriNet             -atan, 	 total_images=88, 	 avg=0.00769, 	 std=0.00809, 	 avg_runtime=7.13
+RobustVerifier      -atan, 	 total_images=88, 	 avg=0.00707, 	 std=0.00700, 	 avg_runtime=7.12
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_ffnn_2x100_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=90, 	 avg=0.01053, 	 std=0.00948, 	 avg_runtime=1.12
-DeepCert            -atan, 	 total_images=90, 	 avg=0.00677, 	 std=0.00453, 	 avg_runtime=1.13
-VeriNet             -atan, 	 total_images=90, 	 avg=0.00905, 	 std=0.00740, 	 avg_runtime=1.15
-RobustVerifier      -atan, 	 total_images=90, 	 avg=0.00856, 	 std=0.00687, 	 avg_runtime=1.11
+NeWise              -atan, 	 total_images=90, 	 avg=0.01053, 	 std=0.00948, 	 avg_runtime=1.08
+DeepCert            -atan, 	 total_images=90, 	 avg=0.00823, 	 std=0.00691, 	 avg_runtime=1.08
+VeriNet             -atan, 	 total_images=90, 	 avg=0.00905, 	 std=0.00740, 	 avg_runtime=1.08
+RobustVerifier      -atan, 	 total_images=90, 	 avg=0.00856, 	 std=0.00687, 	 avg_runtime=1.07
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_cnn_6layer_5_3_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=80, 	 avg=0.03244, 	 std=0.02283, 	 avg_runtime=5.50
-DeepCert            -atan, 	 total_images=80, 	 avg=0.02136, 	 std=0.01322, 	 avg_runtime=6.01
-VeriNet             -atan, 	 total_images=80, 	 avg=0.02822, 	 std=0.01795, 	 avg_runtime=5.69
-RobustVerifier      -atan, 	 total_images=80, 	 avg=0.02577, 	 std=0.01344, 	 avg_runtime=5.52
+NeWise              -atan, 	 total_images=80, 	 avg=0.03244, 	 std=0.02283, 	 avg_runtime=5.52
+DeepCert            -atan, 	 total_images=80, 	 avg=0.02282, 	 std=0.01573, 	 avg_runtime=5.79
+VeriNet             -atan, 	 total_images=80, 	 avg=0.02822, 	 std=0.01795, 	 avg_runtime=5.68
+RobustVerifier      -atan, 	 total_images=80, 	 avg=0.02577, 	 std=0.01344, 	 avg_runtime=5.54
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_ffnn_2x200_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=89, 	 avg=0.00865, 	 std=0.00790, 	 avg_runtime=5.37
-DeepCert            -atan, 	 total_images=89, 	 avg=0.00580, 	 std=0.00435, 	 avg_runtime=5.44
+NeWise              -atan, 	 total_images=89, 	 avg=0.00865, 	 std=0.00790, 	 avg_runtime=3.62
+DeepCert            -atan, 	 total_images=89, 	 avg=0.00693, 	 std=0.00617, 	 avg_runtime=3.58
 VeriNet             -atan, 	 total_images=89, 	 avg=0.00759, 	 std=0.00653, 	 avg_runtime=5.38
-RobustVerifier      -atan, 	 total_images=89, 	 avg=0.00728, 	 std=0.00612, 	 avg_runtime=3.63
+RobustVerifier      -atan, 	 total_images=89, 	 avg=0.00728, 	 std=0.00612, 	 avg_runtime=5.42
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_cnn_3layer_2_3_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=84, 	 avg=0.02659, 	 std=0.01793, 	 avg_runtime=0.16
-DeepCert            -atan, 	 total_images=84, 	 avg=0.01801, 	 std=0.00892, 	 avg_runtime=0.20
+DeepCert            -atan, 	 total_images=84, 	 avg=0.01895, 	 std=0.01046, 	 avg_runtime=0.17
 VeriNet             -atan, 	 total_images=84, 	 avg=0.02346, 	 std=0.01269, 	 avg_runtime=0.16
 RobustVerifier      -atan, 	 total_images=84, 	 avg=0.02254, 	 std=0.01154, 	 avg_runtime=0.16
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_cnn_4layer_5_3_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=87, 	 avg=0.02407, 	 std=0.01171, 	 avg_runtime=1.10
-DeepCert            -atan, 	 total_images=87, 	 avg=0.01678, 	 std=0.00753, 	 avg_runtime=1.30
+DeepCert            -atan, 	 total_images=87, 	 avg=0.01756, 	 std=0.00855, 	 avg_runtime=1.20
 VeriNet             -atan, 	 total_images=87, 	 avg=0.02172, 	 std=0.00993, 	 avg_runtime=1.14
 RobustVerifier      -atan, 	 total_images=87, 	 avg=0.02074, 	 std=0.00898, 	 avg_runtime=1.11
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_cnn_5layer_5_3_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=86, 	 avg=0.02663, 	 std=0.01214, 	 avg_runtime=2.75
-DeepCert            -atan, 	 total_images=86, 	 avg=0.01892, 	 std=0.00825, 	 avg_runtime=3.07
-VeriNet             -atan, 	 total_images=86, 	 avg=0.02410, 	 std=0.01066, 	 avg_runtime=2.79
+NeWise              -atan, 	 total_images=86, 	 avg=0.02663, 	 std=0.01214, 	 avg_runtime=2.76
+DeepCert            -atan, 	 total_images=86, 	 avg=0.02014, 	 std=0.00973, 	 avg_runtime=2.89
+VeriNet             -atan, 	 total_images=86, 	 avg=0.02410, 	 std=0.01066, 	 avg_runtime=2.80
 RobustVerifier      -atan, 	 total_images=86, 	 avg=0.02277, 	 std=0.00989, 	 avg_runtime=2.78
 ===========================================
 model name = models/models_with_positive_weights/arctan/fashion_mnist_cnn_3layer_4_3_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=87, 	 avg=0.02579, 	 std=0.01583, 	 avg_runtime=0.27
-DeepCert            -atan, 	 total_images=87, 	 avg=0.01959, 	 std=0.01031, 	 avg_runtime=0.36
+DeepCert            -atan, 	 total_images=87, 	 avg=0.02046, 	 std=0.01143, 	 avg_runtime=0.31
 VeriNet             -atan, 	 total_images=87, 	 avg=0.02374, 	 std=0.01346, 	 avg_runtime=0.29
 RobustVerifier      -atan, 	 total_images=87, 	 avg=0.02311, 	 std=0.01237, 	 avg_runtime=0.28
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_4x100_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=45, 	 avg=0.01731, 	 std=0.01276, 	 avg_runtime=1.85
-DeepCert            -atan, 	 total_images=45, 	 avg=0.01295, 	 std=0.00816, 	 avg_runtime=1.84
+NeWise              -atan, 	 total_images=45, 	 avg=0.01731, 	 std=0.01276, 	 avg_runtime=1.83
+DeepCert            -atan, 	 total_images=45, 	 avg=0.01451, 	 std=0.00998, 	 avg_runtime=1.84
 VeriNet             -atan, 	 total_images=45, 	 avg=0.01578, 	 std=0.01099, 	 avg_runtime=1.84
-RobustVerifier      -atan, 	 total_images=45, 	 avg=0.01556, 	 std=0.01067, 	 avg_runtime=1.84
+RobustVerifier      -atan, 	 total_images=45, 	 avg=0.01556, 	 std=0.01067, 	 avg_runtime=1.83
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_5x100_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=32, 	 avg=0.02484, 	 std=0.01953, 	 avg_runtime=2.42
-DeepCert            -atan, 	 total_images=32, 	 avg=0.01910, 	 std=0.01393, 	 avg_runtime=2.44
+DeepCert            -atan, 	 total_images=32, 	 avg=0.02129, 	 std=0.01667, 	 avg_runtime=2.42
 VeriNet             -atan, 	 total_images=32, 	 avg=0.02294, 	 std=0.01757, 	 avg_runtime=2.42
 RobustVerifier      -atan, 	 total_images=32, 	 avg=0.02271, 	 std=0.01727, 	 avg_runtime=2.42
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_3x50_with_positive_weights_atan_3875.h5
 NeWise              -atan, 	 total_images=44, 	 avg=0.01856, 	 std=0.01124, 	 avg_runtime=0.43
-DeepCert            -atan, 	 total_images=44, 	 avg=0.01437, 	 std=0.00772, 	 avg_runtime=0.43
+DeepCert            -atan, 	 total_images=44, 	 avg=0.01584, 	 std=0.00921, 	 avg_runtime=0.43
 VeriNet             -atan, 	 total_images=44, 	 avg=0.01712, 	 std=0.00991, 	 avg_runtime=0.43
 RobustVerifier      -atan, 	 total_images=44, 	 avg=0.01690, 	 std=0.00957, 	 avg_runtime=0.43
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_6x100_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=37, 	 avg=0.01708, 	 std=0.01569, 	 avg_runtime=3.02
-DeepCert            -atan, 	 total_images=37, 	 avg=0.01328, 	 std=0.01147, 	 avg_runtime=3.02
-VeriNet             -atan, 	 total_images=37, 	 avg=0.01586, 	 std=0.01437, 	 avg_runtime=3.01
-RobustVerifier      -atan, 	 total_images=37, 	 avg=0.01575, 	 std=0.01421, 	 avg_runtime=3.01
+DeepCert            -atan, 	 total_images=37, 	 avg=0.01477, 	 std=0.01392, 	 avg_runtime=3.04
+VeriNet             -atan, 	 total_images=37, 	 avg=0.01586, 	 std=0.01437, 	 avg_runtime=3.04
+RobustVerifier      -atan, 	 total_images=37, 	 avg=0.01575, 	 std=0.01421, 	 avg_runtime=3.02
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_3x100_with_positive_weights_atan_4078.h5
-NeWise              -atan, 	 total_images=46, 	 avg=0.01377, 	 std=0.01133, 	 avg_runtime=1.26
-DeepCert            -atan, 	 total_images=46, 	 avg=0.01074, 	 std=0.00774, 	 avg_runtime=1.26
+NeWise              -atan, 	 total_images=46, 	 avg=0.01377, 	 std=0.01133, 	 avg_runtime=1.25
+DeepCert            -atan, 	 total_images=46, 	 avg=0.01190, 	 std=0.00940, 	 avg_runtime=1.26
 VeriNet             -atan, 	 total_images=46, 	 avg=0.01273, 	 std=0.01000, 	 avg_runtime=1.26
 RobustVerifier      -atan, 	 total_images=46, 	 avg=0.01260, 	 std=0.00978, 	 avg_runtime=1.26
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_3x200_with_positive_weights_atan_4291.h5
-NeWise              -atan, 	 total_images=49, 	 avg=0.01075, 	 std=0.00729, 	 avg_runtime=4.27
-DeepCert            -atan, 	 total_images=49, 	 avg=0.00879, 	 std=0.00535, 	 avg_runtime=4.29
-VeriNet             -atan, 	 total_images=49, 	 avg=0.01012, 	 std=0.00662, 	 avg_runtime=6.31
+NeWise              -atan, 	 total_images=49, 	 avg=0.01075, 	 std=0.00729, 	 avg_runtime=6.34
+DeepCert            -atan, 	 total_images=49, 	 avg=0.00952, 	 std=0.00612, 	 avg_runtime=6.32
+VeriNet             -atan, 	 total_images=49, 	 avg=0.01012, 	 std=0.00662, 	 avg_runtime=6.34
 RobustVerifier      -atan, 	 total_images=49, 	 avg=0.01006, 	 std=0.00654, 	 avg_runtime=6.32
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_3x700_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=52, 	 avg=0.00793, 	 std=0.00531, 	 avg_runtime=104.72
-DeepCert            -atan, 	 total_images=52, 	 avg=0.00655, 	 std=0.00399, 	 avg_runtime=104.68
-VeriNet             -atan, 	 total_images=52, 	 avg=0.00750, 	 std=0.00487, 	 avg_runtime=104.06
-RobustVerifier      -atan, 	 total_images=52, 	 avg=0.00744, 	 std=0.00480, 	 avg_runtime=104.61
+NeWise              -atan, 	 total_images=52, 	 avg=0.00793, 	 std=0.00531, 	 avg_runtime=102.44
+DeepCert            -atan, 	 total_images=52, 	 avg=0.00701, 	 std=0.00445, 	 avg_runtime=102.61
+VeriNet             -atan, 	 total_images=52, 	 avg=0.00750, 	 std=0.00487, 	 avg_runtime=102.37
+RobustVerifier      -atan, 	 total_images=52, 	 avg=0.00744, 	 std=0.00480, 	 avg_runtime=102.45
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_ffnn_3x400_with_positive_weights_atan.h5
-NeWise              -atan, 	 total_images=43, 	 avg=0.01050, 	 std=0.00683, 	 avg_runtime=38.14
-DeepCert            -atan, 	 total_images=43, 	 avg=0.00869, 	 std=0.00508, 	 avg_runtime=38.17
-VeriNet             -atan, 	 total_images=43, 	 avg=0.00993, 	 std=0.00624, 	 avg_runtime=38.21
-RobustVerifier      -atan, 	 total_images=43, 	 avg=0.00987, 	 std=0.00616, 	 avg_runtime=38.21
+NeWise              -atan, 	 total_images=43, 	 avg=0.01050, 	 std=0.00683, 	 avg_runtime=37.83
+DeepCert            -atan, 	 total_images=43, 	 avg=0.00937, 	 std=0.00580, 	 avg_runtime=37.87
+VeriNet             -atan, 	 total_images=43, 	 avg=0.00993, 	 std=0.00624, 	 avg_runtime=37.86
+RobustVerifier      -atan, 	 total_images=43, 	 avg=0.00987, 	 std=0.00616, 	 avg_runtime=37.86
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_cnn_3layer_2_3_with_positive_weights_atan_3782.h5
 NeWise              -atan, 	 total_images=42, 	 avg=0.01148, 	 std=0.00784, 	 avg_runtime=0.28
-DeepCert            -atan, 	 total_images=42, 	 avg=0.01112, 	 std=0.00741, 	 avg_runtime=0.34
+DeepCert            -atan, 	 total_images=42, 	 avg=0.01128, 	 std=0.00761, 	 avg_runtime=0.31
 VeriNet             -atan, 	 total_images=42, 	 avg=0.01138, 	 std=0.00772, 	 avg_runtime=0.29
 RobustVerifier      -atan, 	 total_images=42, 	 avg=0.01138, 	 std=0.00771, 	 avg_runtime=0.29
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_cnn_3layer_4_3_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=52, 	 avg=0.00798, 	 std=0.00507, 	 avg_runtime=0.53
-DeepCert            -atan, 	 total_images=52, 	 avg=0.00774, 	 std=0.00480, 	 avg_runtime=0.63
+DeepCert            -atan, 	 total_images=52, 	 avg=0.00786, 	 std=0.00493, 	 avg_runtime=0.58
 VeriNet             -atan, 	 total_images=52, 	 avg=0.00791, 	 std=0.00500, 	 avg_runtime=0.54
 RobustVerifier      -atan, 	 total_images=52, 	 avg=0.00791, 	 std=0.00499, 	 avg_runtime=0.54
 ===========================================
 model name = models/models_with_positive_weights/arctan/cifar10_cnn_3layer_5_3_with_positive_weights_atan.h5
 NeWise              -atan, 	 total_images=48, 	 avg=0.00948, 	 std=0.00605, 	 avg_runtime=0.68
-DeepCert            -atan, 	 total_images=48, 	 avg=0.00925, 	 std=0.00579, 	 avg_runtime=0.81
+DeepCert            -atan, 	 total_images=48, 	 avg=0.00935, 	 std=0.00589, 	 avg_runtime=0.73
 VeriNet             -atan, 	 total_images=48, 	 avg=0.00942, 	 std=0.00598, 	 avg_runtime=0.69
 RobustVerifier      -atan, 	 total_images=48, 	 avg=0.00942, 	 std=0.00597, 	 avg_runtime=0.69
+generat the log of table 8 finished!!!
